@@ -1,0 +1,43 @@
+<div class="slider" style="width:400px;" >
+    <div id="rangeslider" style="width:100%" ng-model="slider">
+        <input />
+        <input />
+    </div>
+    <div style="text-align: right; height: 20px;">
+        <span><label ng-bind="position"></label></span>
+    </div>
+
+    <div ng-show="isTextPanelVisible" style="width:100%;" class="controls controls-row">
+        <div>
+            <textarea id="editor" rows="10" cols="20"  style="width:100%;height:80%">
+            </textarea>
+        </div>
+    </div>
+
+    <div ng-show="isDefinitionPanelVisible" style="margin-top:10px">
+        <span><i class="icon-chevron-left"></i></span>
+        <span><input id="definitions" style="width: 90%" /></span>
+        <span><i class="icon-chevron-right"></i></span>
+    </div>
+
+    <div ng-show="isTextUploadVisible" style="margin-top:10px">
+
+        <div class="input-prepend">
+            <span class="add-on"><i class="icon-home"></i></span>
+            <input class="span4" id="bookmarkUrl" type="text" placeholder="enter url" value="www.qualtrak.com">
+        </div>
+
+        <br/>
+        <div class="input-prepend input-append">
+            <span class="add-on"><i class="icon-book"></i></span>
+            <input class="span4" id="bookmarkFile" type="text" placeholder="enter url" value="my-document.pdf">
+            <button class="btn" type="button" id="findFile">select</button>
+        </div>
+
+        <div style="display: none">
+            <input type="file" name="files" id="upload"  />
+        </div>
+    </div>
+
+
+</div>

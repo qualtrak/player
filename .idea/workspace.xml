@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BuildServerSettings">
+    <option name="LOGIN" value="" />
+    <option name="SERVER_URL" value="http://buildserver" />
+    <option name="PASSWORD" />
+    <option name="REMEMBER_ME" value="true" />
+    <option name="USE_IDEA_PROXY_SETTINGS" value="true" />
+    <option name="INSPECTIONS_BUILD_TYPE_IDS" />
+    <option name="DUPLICATES_BUILD_TYPE_IDS" />
+    <option name="COVERAGE_SETTINGS" />
+    <option name="ARTIFACTS_BUILD_TYPE_IDS" />
+    <option name="PERFORM_COMMIT_IF_SUCCESSFUL" value="true" />
+    <option name="PERFORM_COMMIT_IF_NO_NEW_FAILED_TESTS" value="false" />
+    <option name="REQUEST_CONFIRMATON" value="false" />
+    <option name="PRE_TESTED_COMMIT" value="true" />
+    <option name="PROJECT_STATUS_DIALOG_SPLITTER_DIVIDER_LOCATION" value="500" />
+    <option name="CHANGES_STATUS_DIALOG_SPLITTER_DIVIDER_LOCATION" value="500" />
+    <option name="FILTER_BY_STATUS" value="false" />
+    <option name="SHOW_CLOSE_PROMPT" value="true" />
+    <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
+    <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c2e3d680-7261-41c1-bc94-f9de697c7887" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/images/KendoUI.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/images/KendoUI.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/images/back.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/textures/brushed-metal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/img/default.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/textures/dots1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/textures/dots10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/textures/dots11.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/textures/dots12.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/textures/dots13.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/textures/dots2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/textures/dots3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/textures/dots4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/textures/dots5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/textures/dots6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/textures/dots7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/textures/dots8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/textures/dots9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/Black/editor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Black/editor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/BlueOpal/editor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Bootstrap/editor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Default/editor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Flat/editor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/HighContrast/editor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Metro/editor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/MetroBlack/editor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Moonlight/editor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Silver/editor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Uniform/editor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/textures/glass-lighter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/textures/glass.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/img/glyphicons-halflings-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/img/glyphicons-halflings.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/textures/highlight.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/textures/hsv-gradient.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/textures/hue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/Black/imagebrowser.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Black/imagebrowser.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/BlueOpal/imagebrowser.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Bootstrap/imagebrowser.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Default/imagebrowser.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Flat/imagebrowser.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/HighContrast/imagebrowser.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Metro/imagebrowser.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/MetroBlack/imagebrowser.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Moonlight/imagebrowser.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Silver/imagebrowser.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Uniform/imagebrowser.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/textures/leather1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/textures/leather2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/Black/loading-image.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Black/loading-image.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/BlueOpal/loading-image.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Bootstrap/loading-image.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Default/loading-image.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Flat/loading-image.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/HighContrast/loading-image.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Metro/loading-image.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/MetroBlack/loading-image.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Moonlight/loading-image.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Silver/loading-image.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Uniform/loading-image.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/Black/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Black/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/BlueOpal/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Bootstrap/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Default/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Flat/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/HighContrast/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Metro/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/MetroBlack/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Moonlight/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Silver/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Uniform/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/Black/loading_2x.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Black/loading_2x.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/BlueOpal/loading_2x.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Bootstrap/loading_2x.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Default/loading_2x.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Flat/loading_2x.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/HighContrast/loading_2x.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Metro/loading_2x.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/MetroBlack/loading_2x.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Moonlight/loading_2x.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Silver/loading_2x.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Uniform/loading_2x.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/textures/noise.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/Black/slider-h.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Black/slider-h.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/BlueOpal/slider-h.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Bootstrap/slider-h.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Default/slider-h.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Flat/slider-h.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/HighContrast/slider-h.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Metro/slider-h.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/MetroBlack/slider-h.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Moonlight/slider-h.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Silver/slider-h.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Uniform/slider-h.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/Black/slider-v.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Black/slider-v.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/BlueOpal/slider-v.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Bootstrap/slider-v.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Default/slider-v.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Flat/slider-v.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/HighContrast/slider-v.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Metro/slider-v.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/MetroBlack/slider-v.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Moonlight/slider-v.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Silver/slider-v.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Uniform/slider-v.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/Black/sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Black/sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/BlueOpal/sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Bootstrap/sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Default/sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Flat/sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/HighContrast/sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Metro/sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/MetroBlack/sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Moonlight/sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Silver/sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Uniform/sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/Black/sprite_2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Black/sprite_2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/BlueOpal/sprite_2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Bootstrap/sprite_2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Default/sprite_2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Flat/sprite_2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/HighContrast/sprite_2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Metro/sprite_2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/MetroBlack/sprite_2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Moonlight/sprite_2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Silver/sprite_2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/Uniform/sprite_2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/textures/stripe1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/textures/stripe2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/textures/stripe3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/textures/stripe4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/textures/stripe5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/textures/stripe6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/textures/transparency.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/textures/transtexture.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/images/wp8_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/images/wp8_inverseicons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/altitude-player.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/angular/angular.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/atlassian-ide-plugin.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/bootstrap/bootstrap-responsive.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/bootstrap/bootstrap-responsive.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/bootstrap/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bootstrap/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/bootstrap/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bootstrap/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/jquery/jquery-1.10.2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/kendoui/kendo.all.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/kendoui/kendo.all.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendo.black.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/kendo.black.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/kendo.blueopal.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/kendo.bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendo.common.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/kendo.common.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/kendo.dataviz.black.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/kendo.dataviz.blueopal.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/kendo.dataviz.bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/kendo.dataviz.default.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/kendo.dataviz.flat.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/kendo.dataviz.highcontrast.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/kendo.dataviz.metro.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/kendo.dataviz.metroblack.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/kendo.dataviz.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/kendo.dataviz.moonlight.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/kendo.dataviz.silver.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/kendo.dataviz.uniform.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/kendo.default.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/kendo.flat.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/kendo.highcontrast.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/kendo.icenium.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/kendo.metro.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/kendo.metroblack.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/kendo.mobile.all.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/kendo.mobile.android4.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/kendo.mobile.blackberry.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/kendo.mobile.common.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/kendo.mobile.flat.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/kendo.mobile.icenium.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/kendo.mobile.ios.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/kendo.mobile.meego.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/kendo.mobile.wp8.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/kendo.moonlight.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/kendo.rtl.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/kendo.silver.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/kendoui/kendo.uniform.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/directives/player.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <ignored path="altitude-player.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="$PROJECT_DIR$/../Angular-Views/atlassian-ide-plugin.xml" changelist="c2e3d680-7261-41c1-bc94-f9de697c7887" time="1376298708337" ignored="false" />
+    <file path="/index.html" changelist="c2e3d680-7261-41c1-bc94-f9de697c7887" time="1376339433711" ignored="false" />
+    <file path="/Dummy.txt" changelist="c2e3d680-7261-41c1-bc94-f9de697c7887" time="1376389476244" ignored="false" />
+    <file path="/player.html" changelist="c2e3d680-7261-41c1-bc94-f9de697c7887" time="1376339187659" ignored="false" />
+    <file path="/dummy.txt" changelist="c2e3d680-7261-41c1-bc94-f9de697c7887" time="1376389390311" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="altitude-player" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="13" selection-start="1285" selection-end="1285" vertical-scroll-proportion="3.1034484">
+              <folding>
+                <element signature="e#3683#4685#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="player.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/directives/player.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="10" selection-start="271" selection-end="272" vertical-scroll-proportion="-4.6666665">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#textarea#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#span#1;n#div#3;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#4;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="FrameworkCommandLineHistory">
+    <commandsHistory>
+      <command text="pwd" />
+      <command text="dir" />
+      <command text="ls -lt" />
+      <command text="git st" />
+      <command text="git add -A" />
+      <command text="git st" />
+      <command text="git branch" />
+      <command text="git branches" />
+      <command text="git branches list" />
+      <command text="git remote add origin https://github.com/qualtrak/player.git" />
+    </commandsHistory>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="G Kitchen" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myStructureFilterPaths" />
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///dummy.txt" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/libs/jquery/jquery-1.10.2.js" />
+        <option value="$PROJECT_DIR$/app/templates/directives/player.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="1936" />
+    <option name="height" value="1092" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents ProjectPane="true" />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="altitude-player" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="altitude-player" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="altitude-player" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="altitude-player" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="altitude-player" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="altitude-player" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="altitude-player" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="directives" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Problems">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="altitude-player">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="altitude-player">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="All">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="altitude-player">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="options.lastSelected" value="JavaScript.Libraries" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="PublishConfig">
+    <servers>
+      <server id="0cd52a8c-9373-4a7b-ab99-94899febf3b1">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+      <server id="2ca18999-83b2-44f6-aef6-42a074c37199">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+      <server id="42308fd4-fd09-487d-bbd0-53169a57218d">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+      <server id="c128ab4e-314d-487e-960a-7fd9a4931a22">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+    </servers>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles" />
+      <recent name="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui" />
+      <recent name="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\libs\angular" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\libs\kendoui" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.app">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <configuration default="false" name="app" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" value="chrome" />
+        <option name="fileUrl" value="http://localhost:63342/altitude-player/index.html" />
+      </JSRemoteDebuggerConfigurationSettings>
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.app" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c2e3d680-7261-41c1-bc94-f9de697c7887" name="Default" comment="" />
+      <created>1376298707849</created>
+      <updated>1376298707849</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="0" width="1936" height="1092" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22032085" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46318036" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Runner" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32870865" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13340448" sideWeight="0.30416223" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.6958378" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial check in" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="initial check in" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="atlassian-ide-plugin-workspace">
+    <option name="bambooConfiguration">
+      <BambooWorkspaceConfiguration>
+        <option name="view">
+          <BambooViewConfigurationBean />
+        </option>
+      </BambooWorkspaceConfiguration>
+    </option>
+    <option name="defaultCredentials">
+      <UserCfgBean />
+    </option>
+  </component>
+  <component name="atlassian-ide-plugin-workspace-issues">
+    <option name="view">
+      <JiraViewConfigurationBean>
+        <option name="viewFilterId" value="" />
+      </JiraViewConfigurationBean>
+    </option>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#3683#4685#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/kendoui/kendo.all.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="180" selection-end="180" vertical-scroll-proportion="0.100446425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/angular/angular.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="18" selection-start="1036" selection-end="1036" vertical-scroll-proportion="0.78348213">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/kendoui/kendo.all.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="50" selection-start="439" selection-end="439" vertical-scroll-proportion="0.22098215">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/jquery/jquery-1.10.2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9747" column="16" selection-start="377177" selection-end="377177" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/kendoui/kendo.black.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="2590" selection-start="2947" selection-end="2947" vertical-scroll-proportion="-7.2" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/kendo.common.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/kendo.black.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/directives/player.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="10" selection-start="271" selection-end="272" vertical-scroll-proportion="-4.6666665">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#span#1;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#4;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="13" selection-start="1285" selection-end="1285" vertical-scroll-proportion="3.1034484">
+          <folding>
+            <element signature="e#3683#4685#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

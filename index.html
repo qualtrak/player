@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html ng-app="playerApp">
+<head>
+    <title></title>
+    <link href="styles/bootstrap/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="styles/kendoui/kendo.common.min.css" rel="stylesheet" />
+    <link href="styles/kendoui/kendo.silver.min.css" rel="stylesheet" />
+    <style>
+        .slider{
+            margin : 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <player></player>
+
+    <script src="libs/jquery/jquery-1.10.2.js"></script>
+    <script src="libs/angular/angular.js"></script>
+    <script src="libs/bootstrap/bootstrap.min.js"></script>
+    <script src="libs/kendoui/kendo.all.min.js"></script>
+
+    <script>
+        var playerApp = angular.module('playerApp', []);
+
+        playerApp.factory('playerService', ['$http', function($http){
+            return new PlayerService($http);
+        }]);
+
+        playerApp.factory('playerModel', ['playerService', function(playerService){
+            return new PlayerModel(playerService);
+        }]);
+
+        playerApp.controller('playerController', ['$scope', 'playerModel', PlayerController]);
+        //playerApp.controller('playerController', ['$scope', PlayerController]);
+
+        function PlayerService($http){
+
+            function query(){
+                return null;
+            }
+
+            return {
+                query: query
+            }
+        }
+
+        function PlayerDto (id, name, length){
+            var _id = id;
+            var _name = name;
+            var _length = length;
+
+            this.getId = function(){return _id};
+            this.getName = function(){return _name};
+            this.getLength = function(){return _length};
+        }
+
+        function PlayerModel(playerService){
+            return {
+                data : [
+                    new PlayerDto(1,"a.wav", 78),
+                    new PlayerDto(2, "b.wav", 57),
+                    new PlayerDto(3, "c.wav", 91)
+                ]
+            }
+        }
+
+        function PlayerController($scope, playerModel) {
+        //function PlayerController($scope) {
+            $scope.isTextPanelVisible = true;
+            $scope.isDefinitionPanelVisible = false;
+            $scope.isTextUploadVisible = false;
+            $scope.position = "00 - 00 / 00";
+            $scope.recordings = playerModel.data;
+
+            $scope.slider = $('#rangeslider').kendoRangeSlider({
+                min: 0,
+                max: 90,
+                smallStep: 1,
+                largeStep: 1,
+                tickPlacement: "none",
+                showButtons: false,
+                tooltip : { enabled: false},
+                slide: function (e) {
+
+
+                    var start = e.values[0];
+                    var end = e.values[1];
+                    $scope.$apply(function () {
+                        $scope.position = start + "-" + end + " / " + "90";
+                    });
+
+                },
+                value: 10
+            }).data("kendoRangeSlider");
+
+            $scope.slider.values(10,40);
+
+            $scope.editor = $('#editor').kendoEditor({
+                tools: [
+                    "bold",
+                    "italic",
+                    "strikethrough",
+                    "foreColor",
+                    "backColor"
+                ]
+            });
+        }
+
+        playerApp.directive('player', function (playerModel){
+           return {
+               restrict: 'E',
+               replace: true,
+               templateUrl: 'app/templates/directives/player.html',
+               scope: {
+                   //position: "="
+               },
+               controller: 'PlayerController'
+           }
+        });
+
+        $(document).ready(function() {
+
+            $("#definitions").kendoComboBox({
+                dataTextField: "text",
+                dataValueField: "value",
+                dataSource: [
+                    { text: "Def 1", value: "1" },
+                    { text: "Def 2", value: "2" },
+                    { text: "Def 3", value: "3" },
+                    { text: "Def 4", value: "4" }
+                ],
+                filter: "contains",
+                suggest: true,
+                index: 0
+            });
+
+            $("#upload").kendoUpload({
+                multiple: false,
+                select: onSelect,
+                localization : {select : "Select", dropFilesHere: "drop file here...", uploadSelectedFile: "DDDD"}
+            });
+
+            $('#findFile').bind("click", function(e){
+                //$("#upload").open();
+                $('#upload').trigger("click");
+            });
+            function onSelect(e) {
+                $('#bookmarkFile').val(e.files[0].name);
+            };
+
+
+        });
+
+
+
+    </script>
+</body>
+</html>
