@@ -66,7 +66,6 @@
         }
 
         function PlayerController($scope, playerModel, $timeout) {
-        //function PlayerController($scope) {
             $scope.isPlayDisabled = false;
             $scope.isStopDisabled = true;
             $scope.isPauseDisabled = true;
@@ -80,6 +79,7 @@
             $scope.qtPlayer = null;
             $scope.isPlaying = false;
             $scope.segmentStart = 0;
+            $scope.isBookmarkSet = false;
 
             $scope.calculateTotalDuration = function(){
                 angular.forEach($scope.recordings, function(value, key){
@@ -100,8 +100,8 @@
                 slide: function (e) {
                     $scope.start = e.values[0];
                     $scope.currentPosition = e.values[1];
+                    $scope.end = e.values[1];
                     $scope.$apply(function () {
-                        //$scope.position = start + "-" + end + " / " + $scope.totalLength;
                         $scope.updatePositionLabel();
                     });
                     $scope.isPlayDisabled = false;
@@ -131,11 +131,15 @@
             $scope.play = function (){
                 $scope.isPlayDisabled = true;
                 $scope.isStopDisabled = false;
-                $scope.isPauseDisabled = false;
+                $scope.setPauseButtonState(false);
                 $scope.playForward();
 
-                if ($scope.segmentStart != $scope.currentPosition) {
-                    $scope.qtPlayer.SetTime(($scope.currentPosition - $scope.segmentStart) * 600);
+                if ($scope.isBookmarkSet){
+                    $scope.qtPlayer.SetTime(($scope.start - $scope.segmentStart) * 600);
+                } else {
+                    if ($scope.segmentStart != $scope.currentPosition) {
+                        $scope.qtPlayer.SetTime(($scope.currentPosition - $scope.segmentStart) * 600);
+                    }
                 }
 
                 $scope.qtPlayer.Play();
@@ -145,21 +149,42 @@
             $scope.pause = function (){
                 $scope.isPlayDisabled = false;
                 $scope.isStopDisabled = true;
-                $scope.isPauseDisabled = true;
+                $scope.setPauseButtonState(true);
                 $timeout.cancel($scope.timeout);
                 $scope.isPlaying = false;
                 $scope.qtPlayer.Stop();
+                $scope.start = $scope.currentPosition;
+                if ($scope.currentPosition + 5 > $scope.totalLength) {
+                    $scope.end = $scope.totalLength;
+                } else {
+                    $scope.end = $scope.currentPosition + 5;
+                }
+
+                $scope.slider.values($scope.start,$scope.end);
+                $scope.isBookmarkSet = true;
+
+                $scope.updatePositionLabel();
             }
 
             $scope.stop = function (){
                 $scope.isPlayDisabled = false;
                 $scope.isStopDisabled = true;
-                $scope.isPauseDisabled = true;
+                $scope.setPauseButtonState(true);
+
                 $timeout.cancel($scope.timeout);
                 $scope.isPlaying = false;
+                $scope.currentPosition = $scope.start;
 
                 $scope.qtPlayer.Stop();
                 $scope.qtPlayer.Rewind();
+            }
+
+            $scope.setPauseButtonState = function (state){
+                if ($scope.isBookmarkSet ) {
+                    $scope.isPauseDisabled = true;
+                } else {
+                    $scope.isPauseDisabled = state;
+                }
             }
 
             $scope.playForward = function (){
@@ -181,7 +206,6 @@
                         $scope.qtPlayer.Stop();
                         $scope.qtPlayer.Rewind();
                         $scope.qtPlayer = null;
-                        //$scope.qtPlayer["src"] = 'audio/' + $scope.filename;
                         $('#mediaPlayer').html($scope.createQtPlayerObject('audio/' + $scope.filename));
                     } else {
                         $('#mediaPlayer').html($scope.createQtPlayerObject('audio/' + $scope.filename));
@@ -209,18 +233,42 @@
                     cumLength = cumLength + value.getLength();
                 }, null);
 
-                if (newValue >= $scope.totalLength){
-                    $scope.stop()
+                if ($scope.isBookmarkSet) {
+                    if (newValue >= $scope.end){
+                        $scope.stop()
+                    }
+                } else {
+                    if (newValue >= $scope.totalLength){
+                        $scope.stop()
+                    }
                 }
 
-                $scope.slider.values($scope.start,$scope.currentPosition);
+                if (!$scope.isBookmarkSet) {
+                    $scope.slider.values($scope.start,$scope.currentPosition);
+                }
 
                 $scope.updatePositionLabel();
 
             }, true);
 
             $scope.updatePositionLabel = function (){
-                $scope.position = $scope.start + "-" + $scope.currentPosition + " / " + $scope.totalLength;
+                if ($scope.isBookmarkSet) {
+                    $scope.position = $scope.convertToTime($scope.start) + " (" + $scope.convertToTime($scope.currentPosition) + ") " + $scope.convertToTime($scope.end) + " / " + $scope.convertToTime($scope.totalLength);
+                } else {
+                    $scope.position = $scope.convertToTime($scope.start) + "-" + $scope.convertToTime($scope.currentPosition) + " / " + $scope.convertToTime($scope.totalLength);
+                }
+            }
+
+            $scope.convertToTime = function (seconds) {
+
+                var hr = Math.floor(seconds / 3600);
+                var min = Math.floor((seconds - (hr * 3600))/60);
+                var sec = seconds - (hr * 3600) - (min * 60);
+
+                while (min.length < 2) {min = '0' + min;}
+                while (sec.length < 2) {sec = '0' + min;}
+                if (hr) hr += ':';
+                return hr + min + ':' + sec;
             }
 
             $scope.createQtPlayerObject = function (url){

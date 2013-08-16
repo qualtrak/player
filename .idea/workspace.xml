@@ -22,13 +22,17 @@
     <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2e3d680-7261-41c1-bc94-f9de697c7887" name="Default" comment="" />
+    <list default="true" id="c2e3d680-7261-41c1-bc94-f9de697c7887" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/directives/player.html" afterPath="$PROJECT_DIR$/app/templates/directives/player.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="altitude-player.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/../Angular-Views/atlassian-ide-plugin.xml" changelist="c2e3d680-7261-41c1-bc94-f9de697c7887" time="1376298708337" ignored="false" />
-    <file path="/index.html" changelist="c2e3d680-7261-41c1-bc94-f9de697c7887" time="1376661756966" ignored="false" />
+    <file path="/index.html" changelist="c2e3d680-7261-41c1-bc94-f9de697c7887" time="1376668948549" ignored="false" />
     <file path="/Dummy.txt" changelist="c2e3d680-7261-41c1-bc94-f9de697c7887" time="1376389633365" ignored="false" />
-    <file path="/player.html" changelist="c2e3d680-7261-41c1-bc94-f9de697c7887" time="1376658270166" ignored="false" />
+    <file path="/player.html" changelist="c2e3d680-7261-41c1-bc94-f9de697c7887" time="1376666731493" ignored="false" />
     <file path="/dummy.txt" changelist="c2e3d680-7261-41c1-bc94-f9de697c7887" time="1376391408539" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,10 +56,10 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="181" column="49" selection-start="6239" selection-end="6239" vertical-scroll-proportion="2.0014265">
+            <state line="164" column="0" selection-start="5677" selection-end="5677" vertical-scroll-proportion="-0.294702">
               <folding>
-                <element signature="e#4107#4325#0" expanded="false" />
-                <element signature="e#8604#9606#0" expanded="false" />
+                <element signature="e#4057#4275#0" expanded="false" />
+                <element signature="e#10198#10493#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -64,11 +68,13 @@
       <file leaf-file-name="player.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/directives/player.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="49" selection-start="619" selection-end="619" vertical-scroll-proportion="-6.0">
+            <state line="19" column="45" selection-start="1058" selection-end="1058" vertical-scroll-proportion="-12.666667">
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -120,8 +126,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/libs/jquery/jquery-1.10.2.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/app/templates/directives/player.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -381,12 +387,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1936" height="1092" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22032085" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17967914" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28342247" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Runner" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -396,7 +402,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13340448" sideWeight="0.82032084" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13340448" sideWeight="0.71657753" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19893049" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -493,8 +499,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#4107#4325#0" expanded="false" />
-            <element signature="e#8604#9606#0" expanded="false" />
+            <element signature="e#4057#4275#0" expanded="false" />
+            <element signature="e#10198#10493#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -552,21 +558,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/directives/player.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="49" selection-start="619" selection-end="619" vertical-scroll-proportion="-6.0">
+        <state line="19" column="45" selection-start="1058" selection-end="1058" vertical-scroll-proportion="-12.666667">
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="181" column="49" selection-start="6239" selection-end="6239" vertical-scroll-proportion="2.0014265">
+        <state line="164" column="0" selection-start="5677" selection-end="5677" vertical-scroll-proportion="-0.294702">
           <folding>
-            <element signature="e#4107#4325#0" expanded="false" />
-            <element signature="e#8604#9606#0" expanded="false" />
+            <element signature="e#4057#4275#0" expanded="false" />
+            <element signature="e#10198#10493#0" expanded="false" />
           </folding>
         </state>
       </provider>
