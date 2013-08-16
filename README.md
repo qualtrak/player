@@ -5,7 +5,5 @@ player
 
 Work in progress
 
-Integrated with:
-
- - YouTrack
+Integrated with YouTrack
 
