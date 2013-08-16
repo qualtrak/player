@@ -31,7 +31,7 @@
             return new PlayerModel(playerService);
         }]);
 
-        playerApp.controller('playerController', ['$scope', 'playerModel', PlayerController]);
+        playerApp.controller('playerController', ['$scope', 'playerModel', '$timeout', PlayerController]);
         //playerApp.controller('playerController', ['$scope', PlayerController]);
 
         function PlayerService($http){
@@ -58,43 +58,65 @@
         function PlayerModel(playerService){
             return {
                 data : [
-                    new PlayerDto(1,"a.wav", 78),
-                    new PlayerDto(2, "b.wav", 57),
-                    new PlayerDto(3, "c.wav", 91)
+                    new PlayerDto(1, "a.wav", 41),
+                    new PlayerDto(2, "b.wav", 2),
+                    new PlayerDto(3, "c.mp3", 169)
                 ]
             }
         }
 
-        function PlayerController($scope, playerModel) {
+        function PlayerController($scope, playerModel, $timeout) {
         //function PlayerController($scope) {
-            $scope.isTextPanelVisible = true;
-            $scope.isDefinitionPanelVisible = false;
-            $scope.isTextUploadVisible = false;
+            $scope.isPlayDisabled = false;
+            $scope.isStopDisabled = true;
+            $scope.isPauseDisabled = true;
             $scope.position = "00 - 00 / 00";
             $scope.recordings = playerModel.data;
+            $scope.filename = "file:" + playerModel.data[0].getName();
+            $scope.start = 0;
+            $scope.currentPosition = 0;
+            $scope.totalLength = 0;
+            $scope.timeout = null;
+            $scope.qtPlayer = null;
+            $scope.isPlaying = false;
+            $scope.segmentStart = 0;
+
+            $scope.calculateTotalDuration = function(){
+                angular.forEach($scope.recordings, function(value, key){
+                    $scope.totalLength = $scope.totalLength + value.getLength();
+                }, null);
+            }
+
+            $scope.calculateTotalDuration();
 
             $scope.slider = $('#rangeslider').kendoRangeSlider({
                 min: 0,
-                max: 90,
+                max: $scope.totalLength,
                 smallStep: 1,
                 largeStep: 1,
                 tickPlacement: "none",
                 showButtons: false,
                 tooltip : { enabled: false},
                 slide: function (e) {
-
-
-                    var start = e.values[0];
-                    var end = e.values[1];
+                    $scope.start = e.values[0];
+                    $scope.currentPosition = e.values[1];
                     $scope.$apply(function () {
-                        $scope.position = start + "-" + end + " / " + "90";
+                        //$scope.position = start + "-" + end + " / " + $scope.totalLength;
+                        $scope.updatePositionLabel();
                     });
-
+                    $scope.isPlayDisabled = false;
+                    $scope.isPauseDisabled = true;
+                    $scope.stop();
                 },
                 value: 10
             }).data("kendoRangeSlider");
 
-            $scope.slider.values(10,40);
+            if ($scope.start == $scope.currentPosition) {
+                $scope.slider.value($scope.start);
+            }
+            else {
+                $scope.slider.values($scope.start,$scope.currentPosition);
+            }
 
             $scope.editor = $('#editor').kendoEditor({
                 tools: [
@@ -105,6 +127,107 @@
                     "backColor"
                 ]
             });
+
+            $scope.play = function (){
+                $scope.isPlayDisabled = true;
+                $scope.isStopDisabled = false;
+                $scope.isPauseDisabled = false;
+                $scope.playForward();
+
+                if ($scope.segmentStart != $scope.currentPosition) {
+                    $scope.qtPlayer.SetTime(($scope.currentPosition - $scope.segmentStart) * 600);
+                }
+
+                $scope.qtPlayer.Play();
+                $scope.isPlaying = true;
+            }
+
+            $scope.pause = function (){
+                $scope.isPlayDisabled = false;
+                $scope.isStopDisabled = true;
+                $scope.isPauseDisabled = true;
+                $timeout.cancel($scope.timeout);
+                $scope.isPlaying = false;
+                $scope.qtPlayer.Stop();
+            }
+
+            $scope.stop = function (){
+                $scope.isPlayDisabled = false;
+                $scope.isStopDisabled = true;
+                $scope.isPauseDisabled = true;
+                $timeout.cancel($scope.timeout);
+                $scope.isPlaying = false;
+
+                $scope.qtPlayer.Stop();
+                $scope.qtPlayer.Rewind();
+            }
+
+            $scope.playForward = function (){
+                if ($scope.currentPosition >= $scope.totalLength) {
+                    $scope.stop();
+                    return;
+                };
+
+                $scope.timeout = $timeout ( function() {
+                    $scope.currentPosition = $scope.currentPosition + 1;
+                    $scope.playForward();
+                    $scope.$apply();
+                }, 1000, null);
+            }
+
+            $scope.$watch('filename', function (newValue, oldValue) {
+                if (newValue != oldValue) {
+                    if ($scope.qtPlayer != null){
+                        $scope.qtPlayer.Stop();
+                        $scope.qtPlayer.Rewind();
+                        $scope.qtPlayer = null;
+                        //$scope.qtPlayer["src"] = 'audio/' + $scope.filename;
+                        $('#mediaPlayer').html($scope.createQtPlayerObject('audio/' + $scope.filename));
+                    } else {
+                        $('#mediaPlayer').html($scope.createQtPlayerObject('audio/' + $scope.filename));
+                    }
+
+                    $scope.qtPlayer = document.qtPlayer;
+
+                    if ($scope.isPlaying) {
+                        $scope.qtPlayer.Play();
+                    }
+                }
+            });
+
+            $scope.$watch('currentPosition', function (newValue, oldValue) {
+
+                var cumLength = 0;
+                angular.forEach($scope.recordings, function(value, key){
+
+                    if ($scope.currentPosition >= cumLength &&
+                            $scope.currentPosition < (cumLength + value.getLength()) )
+                    {
+                        $scope.segmentStart = cumLength;
+                        $scope.filename = value.getName();
+                    }
+                    cumLength = cumLength + value.getLength();
+                }, null);
+
+                if (newValue >= $scope.totalLength){
+                    $scope.stop()
+                }
+
+                $scope.slider.values($scope.start,$scope.currentPosition);
+
+                $scope.updatePositionLabel();
+
+            }, true);
+
+            $scope.updatePositionLabel = function (){
+                $scope.position = $scope.start + "-" + $scope.currentPosition + " / " + $scope.totalLength;
+            }
+
+            $scope.createQtPlayerObject = function (url){
+                var str = '<embed name="qtPlayer" width="0px" height="0px" AUTOPLAY="false" src="' + url + '" TYPE="video/quicktime" PLUGINSPAGE="www.apple.com/quicktime/download" enablejavascript="true">';
+                str += '  </embed> ';
+                return str;
+            }
         }
 
         playerApp.directive('player', function (playerModel){
