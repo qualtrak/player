@@ -31,17 +31,18 @@
                 alert(start + " " + end);
             }
 
+            document.cancelCallback = function() {
+                alert("cancelled");
+            }
+
            $('#test').on("click", function(){
                 angular.element($('#player')).scope().play();
-                //$('#player').attr("start", 19);
-                //$('#player').attr("end", 38);
             });
 
             $('#bookmark').on("click", function(){
                 var scope = angular.element($('#player')).scope();
                 scope.setBookmark();
             });
-
         });
 
     </script>

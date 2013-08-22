@@ -1,27 +1,30 @@
 <div class="slider" style="width:600px;display: inline-block">
     <div style="width:400px;" >
         <div>
-            <div id="rangeslider" style="width:100%; display:none; visibility: hidden" ng-model="slider">
+
+            <div id="slider" style="width:100%;" ng-model="slider" ng-show="!isBookmarkSet">
                 <input />
                 <input />
             </div>
-            <div id="slider" style="width:100%;" ng-model="slider">
+
+            <div id="rangeslider" style="width:100%;" ng-model="slider" ng-show="isBookmarkSet">
                 <input />
                 <input />
             </div>
+
         </div>
         <div style="height: 30px;;">
             <div style="float:left; width: 30% ">
                 <button class="btn btn-primary btn-mini" ng-disabled="isPlayDisabled" ng-click="play()"><i class="icon-play icon-white"></i></button>
                 <button class="btn btn-primary btn-mini" ng-disabled="isPauseDisabled" ng-click="pause()"><i class="icon-pause icon-white"></i></button>
-                <button class="btn btn-primary btn-mini" ng-disabled="isStopDisabled" ng-click="stop()"><i class="icon-stop icon-white"></i></button>
+                <button class="btn btn-primary btn-mini" ng-disabled="isStopDisabled" ng-click="stop(true)"><i class="icon-stop icon-white"></i></button>
             </div>
             <div style="float: left; width:40%; margin-top: 3px; ">
                 <div><label ng-bind="position"></label></div>
             </div>
             <div style="float: right; width:30%; ">
                 <button class="btn btn-info" ng-show="isBookmarkSet" ng-click="save()">capture</button>
-                <a href="#" ng-show="isBookmarkSet">cancel</a>
+                <a href="#" ng-show="isBookmarkSet" ng-click="cancel()">cancel</a>
             </div>
         </div>
         <div style="clear:both;"></div>
