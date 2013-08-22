@@ -1,32 +1,36 @@
-<div class="slider" style="width:600px;" >
-    <div style="width:400px; float: left;" >
+<div class="slider" style="width:600px;display: inline-block">
+    <div style="width:400px;" >
         <div>
-            <div style="float:left; width: 26% ">
-                <button class="btn btn-primary btn-mini" ng-disabled="isPlayDisabled" ng-click="play()"><i class="icon-play icon-white"></i></button>
-                <button class="btn btn-primary btn-mini" ng-disabled="isPauseDisabled" ng-click="pause(true)"><i class="icon-pause icon-white"></i></button>
-                <button class="btn btn-primary btn-mini" ng-disabled="isStopDisabled" ng-click="stop()"><i class="icon-stop icon-white"></i></button>
+            <div id="rangeslider" style="width:100%; display:none; visibility: hidden" ng-model="slider">
+                <input />
+                <input />
             </div>
-            <div>
-                <div id="rangeslider" style="width:30%; float: left; " ng-model="slider">
-                    <input />
-                    <input />
-                </div>
-            </div>
-            <div style="float: right; width:40%; margin-top: 3px; ">
-                <div><label ng-bind="position"></label></div>
+            <div id="slider" style="width:100%;" ng-model="slider">
+                <input />
+                <input />
             </div>
         </div>
-        <div>
+        <div style="height: 30px;;">
+            <div style="float:left; width: 30% ">
+                <button class="btn btn-primary btn-mini" ng-disabled="isPlayDisabled" ng-click="play()"><i class="icon-play icon-white"></i></button>
+                <button class="btn btn-primary btn-mini" ng-disabled="isPauseDisabled" ng-click="pause()"><i class="icon-pause icon-white"></i></button>
+                <button class="btn btn-primary btn-mini" ng-disabled="isStopDisabled" ng-click="stop()"><i class="icon-stop icon-white"></i></button>
+            </div>
+            <div style="float: left; width:40%; margin-top: 3px; ">
+                <div><label ng-bind="position"></label></div>
+            </div>
+            <div style="float: right; width:30%; ">
+                <button class="btn btn-info" ng-show="isBookmarkSet" ng-click="save()">capture</button>
+                <a href="#" ng-show="isBookmarkSet">cancel</a>
+            </div>
+        </div>
+        <div style="clear:both;"></div>
+        <div style="display: inline-block">
             <div><label ng-bind="filename"></label></div>
         </div>
         <div>
             <div id="mediaPlayer"></div>
         </div>
-    </div>
-
-    <div>
-        <button class="btn btn-info" ng-disabled="!isBookmarkSet">save</button>
-        <a href="#">cancel</a>
     </div>
 
 </div>

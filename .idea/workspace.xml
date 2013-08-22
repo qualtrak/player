@@ -26,36 +26,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2e3d680-7261-41c1-bc94-f9de697c7887" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio/test-1.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio/test-2.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/lib/jasmine-1.3.1/MIT.LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/lib/SpecRunner.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/lib/angular/angular-mocks.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/lib/jasmine-1.3.1/jasmine-html.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/lib/jasmine-1.3.1/jasmine.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/lib/jasmine-1.3.1/jasmine.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/karma.conf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/player.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/spec/playerSpec.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/spec/playerSpec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/spec/playerSpec.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/lib/sinon/sinon-1.7.3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/altitude-player.iml" afterPath="$PROJECT_DIR$/.idea/altitude-player.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/angular/angular.js" afterPath="$PROJECT_DIR$/libs/angular/angular.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/directives/player.html" afterPath="$PROJECT_DIR$/app/templates/directives/player.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/player.js" afterPath="$PROJECT_DIR$/app/js/player.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="altitude-player.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/../Angular-Views/atlassian-ide-plugin.xml" changelist="c2e3d680-7261-41c1-bc94-f9de697c7887" time="1376298708337" ignored="false" />
-    <file path="/index.html" changelist="c2e3d680-7261-41c1-bc94-f9de697c7887" time="1376926666869" ignored="false" />
+    <file path="/index.html" changelist="c2e3d680-7261-41c1-bc94-f9de697c7887" time="1377118828060" ignored="false" />
     <file path="/Dummy.txt" changelist="c2e3d680-7261-41c1-bc94-f9de697c7887" time="1376851535778" ignored="false" />
-    <file path="/player.html" changelist="c2e3d680-7261-41c1-bc94-f9de697c7887" time="1376928574898" ignored="false" />
+    <file path="/player.html" changelist="c2e3d680-7261-41c1-bc94-f9de697c7887" time="1377163375614" ignored="false" />
     <file path="/dummy.txt" changelist="c2e3d680-7261-41c1-bc94-f9de697c7887" time="1376391408539" ignored="false" />
     <file path="/playerSpec.coffee" changelist="c2e3d680-7261-41c1-bc94-f9de697c7887" time="1376916481869" ignored="false" />
     <file path="/karma.conf.js" changelist="c2e3d680-7261-41c1-bc94-f9de697c7887" time="1376910148702" ignored="false" />
-    <file path="/player.js" changelist="c2e3d680-7261-41c1-bc94-f9de697c7887" time="1376935737518" ignored="false" />
+    <file path="/player.js" changelist="c2e3d680-7261-41c1-bc94-f9de697c7887" time="1377164430741" ignored="false" />
+    <file path="/dummy.xml" changelist="c2e3d680-7261-41c1-bc94-f9de697c7887" time="1377107015458" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,23 +62,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="4" selection-start="398" selection-end="416" vertical-scroll-proportion="0.40384614">
+            <state line="9" column="26" selection-start="355" selection-end="355" vertical-scroll-proportion="-4.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="player.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="player.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/js/player.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="265" column="6" selection-start="8682" selection-end="8682" vertical-scroll-proportion="0.0">
+            <state line="25" column="0" selection-start="580" selection-end="580" vertical-scroll-proportion="-0.3991131">
               <folding>
-                <element signature="e#5763#6216#0" expanded="false" />
-                <element signature="e#6264#6594#0" expanded="false" />
-                <element signature="e#6650#6928#0" expanded="false" />
+                <element signature="n#!!block;n#PlayerService#0" expanded="false" />
+                <element signature="e#2235#2345#0" expanded="false" />
+                <element signature="e#4114#4172#0" expanded="false" />
+                <element signature="e#4859#4976#0" expanded="false" />
+                <element signature="e#4899#4962#0" expanded="false" />
+                <element signature="e#6624#6954#0" expanded="false" />
+                <element signature="e#7010#7288#0" expanded="false" />
+                <element signature="e#10675#10918#0" expanded="false" />
+                <element signature="e#10765#10882#0" expanded="false" />
+                <element signature="e#10811#10872#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -100,13 +94,17 @@
       <file leaf-file-name="player.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/directives/player.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="107" selection-start="409" selection-end="409" vertical-scroll-proportion="-3.3333333">
+            <state line="12" column="26" selection-start="460" selection-end="466" vertical-scroll-proportion="-8.0">
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -161,8 +159,8 @@
         <option value="$PROJECT_DIR$/test/lib/sinon/sinon-1.7.3.js" />
         <option value="$PROJECT_DIR$/test/karma.conf.js" />
         <option value="$PROJECT_DIR$/test/spec/playerSpec.coffee" />
-        <option value="$PROJECT_DIR$/app/templates/directives/player.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/app/templates/directives/player.html" />
         <option value="$PROJECT_DIR$/app/js/player.js" />
       </list>
     </option>
@@ -440,7 +438,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.CoffeeScript" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.JavaScript" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/test" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
@@ -588,18 +586,18 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22032085" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32837406" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21147715" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2805526" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2805526" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Runner" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32837406" sideWeight="0.20917822" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32870865" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18569905" sideWeight="0.78852284" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13340448" sideWeight="0.7194474" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13340448" sideWeight="0.78852284" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Duplicates" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39107332" sideWeight="0.7908218" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -672,7 +670,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="atlassian-ide-plugin-workspace">
@@ -732,7 +730,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/kendo.common.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/kendo.black.min.css">
@@ -781,34 +781,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/player.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="265" column="6" selection-start="8682" selection-end="8682" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#5763#6216#0" expanded="false" />
-            <element signature="e#6264#6594#0" expanded="false" />
-            <element signature="e#6650#6928#0" expanded="false" />
-          </folding>
+        <state line="9" column="26" selection-start="355" selection-end="355" vertical-scroll-proportion="-4.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/directives/player.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="107" selection-start="409" selection-end="409" vertical-scroll-proportion="-3.3333333">
+        <state line="12" column="26" selection-start="460" selection-end="466" vertical-scroll-proportion="-8.0">
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/app/js/player.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="4" selection-start="398" selection-end="416" vertical-scroll-proportion="0.40384614">
-          <folding />
+        <state line="25" column="0" selection-start="580" selection-end="580" vertical-scroll-proportion="-0.3991131">
+          <folding>
+            <element signature="n#!!block;n#PlayerService#0" expanded="false" />
+            <element signature="e#2235#2345#0" expanded="false" />
+            <element signature="e#4114#4172#0" expanded="false" />
+            <element signature="e#4859#4976#0" expanded="false" />
+            <element signature="e#4899#4962#0" expanded="false" />
+            <element signature="e#6624#6954#0" expanded="false" />
+            <element signature="e#7010#7288#0" expanded="false" />
+            <element signature="e#10675#10918#0" expanded="false" />
+            <element signature="e#10765#10882#0" expanded="false" />
+            <element signature="e#10811#10872#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

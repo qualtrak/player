@@ -12,8 +12,8 @@
     </style>
 </head>
 <body>
-<!--start="8" end="28"-->
-    <player ></player>
+<!--start="8" end="28" saved="savedCallback()"-->
+    <player id="player" start="0" end="0"></player>
 
     <script src="libs/jquery/jquery-1.10.2.js"></script>
     <script src="libs/angular/angular.js"></script>
@@ -21,9 +21,29 @@
     <script src="libs/kendoui/kendo.all.min.js"></script>
     <script src="app/js/player.js"></script>
 
+    <div class="well">
+        <button id='test' class="btn">play</button>
+        <button id='bookmark' class="btn">bookmark</button>
+    </div>
     <script>
         $(document).ready(function() {
+            document.savedCallback = function(start, end) {
+                alert(start + " " + end);
+            }
+
+           $('#test').on("click", function(){
+                angular.element($('#player')).scope().play();
+                //$('#player').attr("start", 19);
+                //$('#player').attr("end", 38);
+            });
+
+            $('#bookmark').on("click", function(){
+                var scope = angular.element($('#player')).scope();
+                scope.setBookmark();
+            });
+
         });
+
     </script>
 
 </body>

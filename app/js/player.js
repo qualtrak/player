@@ -45,14 +45,19 @@ function PlayerModel(playerService){
     }
 }
 
-function PlayerController($scope, playerModel, $timeout) {
+//function PlayerController($scope, playerModel, $timeout) {
+function PlayerController($scope, $timeout) {
     $scope.isPlayDisabled = false;
     $scope.isStopDisabled = true;
     $scope.isPauseDisabled = true;
     $scope.position = "00 - 00 / 00";
-    $scope.recordings = playerModel.data;
-    $scope.filename = ""; playerModel.data[0].getName();
-    //$scope.start = 0;
+    $scope.recordings =  [
+        new PlayerDto(1, "test-1.wav", 10),
+        new PlayerDto(2, "b.wav", 2),
+        new PlayerDto(3, "test-2.wav", 10),
+        new PlayerDto(4, "c.mp3", 169)
+    ];
+    $scope.filename = ""; $scope.recordings[0].getName();
     $scope.currentPosition = 0;
     $scope.totalLength = 0;
     $scope.timeout = null;
@@ -60,6 +65,7 @@ function PlayerController($scope, playerModel, $timeout) {
     $scope.isPlaying = false;
     $scope.segmentStart = 0;
     $scope.isBookmarkSet = false;
+    $scope.bookmarkSliderBroughtIntoView = false;
 
     $scope.play = function (){
         $scope.isPlayDisabled = true;
@@ -82,7 +88,8 @@ function PlayerController($scope, playerModel, $timeout) {
         $scope.isPlaying = true;
     }
 
-    $scope.pause = function (addExtra5SecondsToEnd){
+
+    $scope.pausedPressed = function (){
         $scope.isPlayDisabled = false;
         $scope.isStopDisabled = true;
         $scope.setPauseButtonState(true);
@@ -92,20 +99,29 @@ function PlayerController($scope, playerModel, $timeout) {
         if ($scope.qtPlayer!=null){
             $scope.qtPlayer.Stop();
         }
+    }
 
-        if (addExtra5SecondsToEnd){
-            $scope.start = $scope.currentPosition;
+    $scope.pause = function (){
+        $scope.pausedPressed();
+    }
 
-            if ($scope.currentPosition + 5 > $scope.totalLength) {
-                $scope.end = $scope.totalLength;
-            } else {
-                $scope.end = $scope.currentPosition + 5;
-            }
-        }
-
-        $scope.slider.values($scope.start,$scope.end);
+    $scope.setBookmark = function(){
         $scope.isBookmarkSet = true;
 
+        $scope.$apply( function() {
+            $scope.pausedPressed();
+        });
+
+        $scope.start = $scope.currentPosition;
+
+        if ($scope.currentPosition + 5 > $scope.totalLength) {
+            $scope.end = $scope.totalLength;
+        } else {
+            $scope.end = $scope.currentPosition + 5;
+        }
+
+        $scope.createSlider();
+        $scope.updateSlider($scope.start,$scope.end);
         $scope.updatePositionLabel();
     }
 
@@ -160,6 +176,8 @@ function PlayerController($scope, playerModel, $timeout) {
     });
 
     $scope.$watch('currentPosition', function (newValue, oldValue) {
+        if (newValue === oldValue) return;
+
         var cumLength = 0;
         angular.forEach($scope.recordings, function(value, key){
             if ($scope.currentPosition > cumLength &&
@@ -184,18 +202,18 @@ function PlayerController($scope, playerModel, $timeout) {
         }
 
         if (!$scope.isBookmarkSet) {
-            $scope.slider.values($scope.start,$scope.currentPosition);
+            $scope.updateSlider($scope.currentPosition);
         }
 
         $scope.updatePositionLabel();
 
-    }, true);
+    });
 
     $scope.updatePositionLabel = function (){
         if ($scope.isBookmarkSet) {
             $scope.position = $scope.convertToTime($scope.start) + " (" + $scope.convertToTime($scope.currentPosition) + ") " + $scope.convertToTime($scope.end) + " / " + $scope.convertToTime($scope.totalLength);
         } else {
-            $scope.position = $scope.convertToTime($scope.start) + "-" + $scope.convertToTime($scope.currentPosition) + " / " + $scope.convertToTime($scope.totalLength);
+            $scope.position = $scope.convertToTime($scope.currentPosition) + " / " + $scope.convertToTime($scope.totalLength);
         }
     }
 
@@ -217,6 +235,75 @@ function PlayerController($scope, playerModel, $timeout) {
         return str;
     }
 
+    $scope.updateSlider = function (start, end)
+    {
+        if ($scope.isBookmarkSet) {
+            $scope.slider.values(start,end);
+        } else {
+            $scope.slider.value(start);
+        }
+    };
+
+    $scope.createSlider = function() {
+
+
+        if ($scope.isBookmarkSet)
+        {
+            if ($scope.bookmarkSliderBroughtIntoView) return;
+
+            $('#slider').data("kendoSlider").destroy();
+            $("#slider").closest(".k-slider").remove();
+            $('#rangeslider').css("display", "inline-block");
+            $('#rangeslider').css("visibility", "visible");
+            $scope.$apply();
+
+            $scope.slider = $('#rangeslider').kendoRangeSlider({
+                min: 0,
+                max: $scope.totalLength,
+                smallStep: 1,
+                largeStep: 1,
+                tickPlacement: "none",
+                showButtons: false,
+                tooltip : { enabled: false},
+                slide: function (e) {
+                    $scope.start = e.values[0];
+                    $scope.currentPosition = e.values[1];
+                    $scope.end = e.values[1];
+                    $scope.$apply(function () {
+                        $scope.updatePositionLabel();
+                    });
+                    $scope.isPlayDisabled = false;
+                    $scope.isPauseDisabled = true;
+                    $scope.stop();
+                },
+                value: 10
+            }).data("kendoRangeSlider");
+
+            $scope.bookmarkSliderBroughtIntoView = true;
+        } else {
+            $scope.slider = $('#slider').kendoSlider({
+                min: 0,
+                max: $scope.totalLength,
+                smallStep: 1,
+                largeStep: 1,
+                tickPlacement: "none",
+                showButtons: false,
+                tooltip : { enabled: false},
+                slide: function (e) {
+                    $scope.start = e.value;
+                    $scope.currentPosition = e.value;
+                    $scope.$apply(function () {
+                        $scope.updatePositionLabel();
+                    });
+                    $scope.isPlayDisabled = false;
+                    $scope.isPauseDisabled = true;
+                    $scope.stop();
+                },
+                value: 10
+            }).data("kendoSlider");
+        }
+    }
+
     $scope.init = function (){
         var html = "";
         angular.forEach($scope.recordings, function(value, key){
@@ -226,29 +313,9 @@ function PlayerController($scope, playerModel, $timeout) {
 
         $('#mediaPlayer').html(html);
 
-        $scope.slider = $('#rangeslider').kendoRangeSlider({
-            min: 0,
-            max: $scope.totalLength,
-            smallStep: 1,
-            largeStep: 1,
-            tickPlacement: "none",
-            showButtons: false,
-            tooltip : { enabled: false},
-            slide: function (e) {
-                $scope.start = e.values[0];
-                $scope.currentPosition = e.values[1];
-                $scope.end = e.values[1];
-                $scope.$apply(function () {
-                    $scope.updatePositionLabel();
-                });
-                $scope.isPlayDisabled = false;
-                $scope.isPauseDisabled = true;
-                $scope.stop();
-            },
-            value: 10
-        }).data("kendoRangeSlider");
+        $scope.createSlider();
 
-        if ($scope.end != undefined && $scope.end != 0) {
+        if ($scope.end != 0) {
             $scope.start = parseInt($scope.start);
             $scope.end = parseInt($scope.end);
             $scope.currentPosition = $scope.start;
@@ -256,11 +323,11 @@ function PlayerController($scope, playerModel, $timeout) {
             $scope.isPlayDisabled = false;
             $scope.setPauseButtonState(true);
             $scope.updatePositionLabel();
-            $scope.slider.values($scope.start,$scope.end);
+            $scope.updateSlider($scope.start,$scope.end);
         } else {
             $scope.start = 0;
             $scope.end = 0;
-            $scope.slider.values($scope.start,$scope.end);
+            $scope.updateSlider($scope.start, null);
             $scope.updatePositionLabel();
         }
     };
@@ -274,12 +341,13 @@ function PlayerController($scope, playerModel, $timeout) {
         }, null);
 
         return elem;
-    }
+    };
+
+    $scope.save = function(){
+        document.savedCallback($scope.start, $scope.end);
+    };
 
     $scope.init();
-
-
-
 }
 
 playerApp.directive('player', function (playerModel){
@@ -294,6 +362,7 @@ playerApp.directive('player', function (playerModel){
         controller: 'PlayerController'
     }
 });
+
 
 
 
