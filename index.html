@@ -24,8 +24,10 @@
     <div class="well">
         <button id='test' class="btn">play</button>
         <button id='bookmark' class="btn">bookmark</button>
+        <button id='recordings' class="btn">load recordings</button>
     </div>
     <script>
+
         $(document).ready(function() {
             document.savedCallback = function(start, end) {
                 alert(start + " " + end);
@@ -35,13 +37,27 @@
                 alert("cancelled");
             }
 
-           $('#test').on("click", function(){
+            $('#test').on("click", function(){
                 angular.element($('#player')).scope().play();
             });
 
             $('#bookmark').on("click", function(){
                 var scope = angular.element($('#player')).scope();
                 scope.setBookmark();
+                scope.$apply();
+            });
+
+            $('#recordings').on("click", function(){
+                var recs = [
+                    new RecordingDto(1, "audio/test-1.wav", 10),
+                    new RecordingDto(2, "audio/b.wav", 2),
+                    new RecordingDto(3, "audio/test-2.wav", 10),
+                    new RecordingDto(4, "audio/c.mp3", 169)
+                ];
+
+                var scope = angular.element($('#player')).scope();
+                scope.loadRecordings(recs);
+                scope.$apply();
             });
         });
 
