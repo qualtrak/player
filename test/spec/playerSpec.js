@@ -32,14 +32,18 @@
         ctrl = $controller "PlayerController", {$scope: scope, playerModel: playerModel, $timeout: {}}
       */
 
-      beforeEach(inject(function($rootScope, $compile) {
+      beforeEach(inject(function($rootScope, $compile, $timeout) {
         rootScope = $rootScope;
-        return compile = $compile;
+        compile = $compile;
+        return ctrl = angular.element.controller("playerController", {
+          $scope: rootScope,
+          playerModel: playerModel,
+          $timeout: {}
+        });
       }));
       it("should have  rangeslider rendered", function() {
-        elem = compile("<player></player>")(rootScope);
-        console.log(elem.html());
-        return expect(elem.html()).toContain("rangeslider");
+        console.log(ctrl);
+        return expect(elem.html()).toContain("slider");
       });
       xit("should have rangeslider rendered", function() {
         return expect(true).toBe(true);

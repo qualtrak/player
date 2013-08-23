@@ -36,14 +36,15 @@ describe "Player App suite", ->
       console.log "html -> ", elem.html()
       ctrl = $controller "PlayerController", {$scope: scope, playerModel: playerModel, $timeout: {}}###
 
-    beforeEach inject ($rootScope, $compile) ->
+    beforeEach inject ($rootScope, $compile, $timeout) ->
       rootScope = $rootScope
       compile = $compile
+      ctrl = angular.element.controller "playerController", {$scope: rootScope, playerModel: playerModel, $timeout: {}}
 
     it "should have  rangeslider rendered", ->
-      elem = compile("<player></player>")(rootScope)
-      console.log(elem.html())
-      expect(elem.html()).toContain("rangeslider")
+      #elem = compile("<player></player>")(rootScope)
+      console.log(ctrl)
+      expect(elem.html()).toContain("slider")
 
     xit "should have rangeslider rendered", ->
       #expect(elem.html()).to.match(/rangeslider/i)

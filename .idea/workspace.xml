@@ -29,22 +29,25 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/directives/player.html" afterPath="$PROJECT_DIR$/app/templates/directives/player.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/player.js" afterPath="$PROJECT_DIR$/app/js/player.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/spec/playerSpec.coffee" afterPath="$PROJECT_DIR$/test/spec/playerSpec.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/spec/playerSpec.js" afterPath="$PROJECT_DIR$/test/spec/playerSpec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/spec/playerSpec.map" afterPath="$PROJECT_DIR$/test/spec/playerSpec.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="altitude-player.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/../Angular-Views/atlassian-ide-plugin.xml" changelist="c2e3d680-7261-41c1-bc94-f9de697c7887" time="1376298708337" ignored="false" />
-    <file path="/index.html" changelist="c2e3d680-7261-41c1-bc94-f9de697c7887" time="1377210020578" ignored="false" />
+    <file path="/index.html" changelist="c2e3d680-7261-41c1-bc94-f9de697c7887" time="1377288541953" ignored="false" />
     <file path="/Dummy.txt" changelist="c2e3d680-7261-41c1-bc94-f9de697c7887" time="1377169298219" ignored="false" />
-    <file path="/player.html" changelist="c2e3d680-7261-41c1-bc94-f9de697c7887" time="1377237189448" ignored="false" />
+    <file path="/player.html" changelist="c2e3d680-7261-41c1-bc94-f9de697c7887" time="1377278028298" ignored="false" />
     <file path="/dummy.txt" changelist="c2e3d680-7261-41c1-bc94-f9de697c7887" time="1376391408539" ignored="false" />
-    <file path="/playerSpec.coffee" changelist="c2e3d680-7261-41c1-bc94-f9de697c7887" time="1376916481869" ignored="false" />
+    <file path="/playerSpec.coffee" changelist="c2e3d680-7261-41c1-bc94-f9de697c7887" time="1377288303948" ignored="false" />
     <file path="/karma.conf.js" changelist="c2e3d680-7261-41c1-bc94-f9de697c7887" time="1376910148702" ignored="false" />
-    <file path="/player.js" changelist="c2e3d680-7261-41c1-bc94-f9de697c7887" time="1377237481094" ignored="false" />
+    <file path="/player.js" changelist="c2e3d680-7261-41c1-bc94-f9de697c7887" time="1377290525208" ignored="false" />
     <file path="/dummy.xml" changelist="c2e3d680-7261-41c1-bc94-f9de697c7887" time="1377107015458" ignored="false" />
-    <file path="/fragment.js2" changelist="c2e3d680-7261-41c1-bc94-f9de697c7887" time="1377176194695" ignored="false" />
+    <file path="/fragment.js2" changelist="c2e3d680-7261-41c1-bc94-f9de697c7887" time="1377265435584" ignored="false" />
     <file path="$PROJECT_DIR$/libs/angular/angular.js" changelist="c2e3d680-7261-41c1-bc94-f9de697c7887" time="1377209167246" ignored="false" />
-    <file path="$PROJECT_DIR$/atlassian-ide-plugin.xml" changelist="c2e3d680-7261-41c1-bc94-f9de697c7887" time="1377243709208" ignored="false" />
+    <file path="$PROJECT_DIR$/atlassian-ide-plugin.xml" changelist="c2e3d680-7261-41c1-bc94-f9de697c7887" time="1377290852322" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +70,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="12" selection-start="997" selection-end="997" vertical-scroll-proportion="-5.4814816">
+            <state line="39" column="0" selection-start="1303" selection-end="1303" vertical-scroll-proportion="-8.555555">
               <folding />
             </state>
           </provider>
@@ -76,11 +79,10 @@
       <file leaf-file-name="player.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/js/player.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="286" column="43" selection-start="9033" selection-end="9033" vertical-scroll-proportion="0.7075472">
+            <state line="18" column="5" selection-start="458" selection-end="458" vertical-scroll-proportion="0.46153846">
               <folding>
-                <element signature="n#!!block;n#PlayerService#0" expanded="false" />
-                <marker date="1377237556513" expanded="true" signature="2086:2118" placeholder="..." />
-                <marker date="1377237556513" expanded="true" signature="2220:2252" placeholder="..." />
+                <marker date="1377290860945" expanded="true" signature="1264:1296" placeholder="..." />
+                <marker date="1377290860945" expanded="true" signature="1398:1430" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -89,7 +91,7 @@
       <file leaf-file-name="player.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/directives/player.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="450" selection-end="450" vertical-scroll-proportion="-8.0">
+            <state line="6" column="18" selection-start="278" selection-end="278" vertical-scroll-proportion="-4.0">
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -100,6 +102,24 @@
                 <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="playerSpec.coffee" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/spec/playerSpec.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="29" selection-start="1002" selection-end="1002" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="playerSpec.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/spec/playerSpec.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="18" selection-start="1438" selection-end="1438" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -152,9 +172,9 @@
         <option value="$PROJECT_DIR$/app/js/player" />
         <option value="$PROJECT_DIR$/test/lib/sinon/sinon-1.7.3.js" />
         <option value="$PROJECT_DIR$/test/karma.conf.js" />
+        <option value="$PROJECT_DIR$/app/templates/directives/player.html" />
         <option value="$PROJECT_DIR$/test/spec/playerSpec.coffee" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/app/templates/directives/player.html" />
         <option value="$PROJECT_DIR$/app/js/player.js" />
       </list>
     </option>
@@ -206,6 +226,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="altitude-player" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="altitude-player" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="altitude-player" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="altitude-player" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="altitude-player" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spec" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -398,7 +450,9 @@
       <method />
     </configuration>
     <configuration default="false" name="Karma Server" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="$USER_HOME$/AppData/Roaming/npm/node_modules/karma/bin/karma" application-parameters="start karma.conf.js" working-dir="$PROJECT_DIR$/test">
+      <RunnerSettings RunnerId="NodeJS.debug" />
       <RunnerSettings RunnerId="NodeJS.run" />
+      <ConfigurationWrapper RunnerId="NodeJS.debug" />
       <ConfigurationWrapper RunnerId="NodeJS.run" />
       <method />
     </configuration>
@@ -450,24 +504,25 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22032085" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21086262" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21086262" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28115016" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28115016" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Runner" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32837406" sideWeight="0.20917822" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32870865" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18569905" sideWeight="0.71884984" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.09765208" sideWeight="0.78913736" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13340448" sideWeight="0.78913736" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Duplicates" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39107332" sideWeight="0.7908218" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39084134" sideWeight="0.7908218" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290735" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -534,7 +589,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="7" />
     </breakpoint-manager>
   </component>
   <component name="atlassian-ide-plugin-workspace">
@@ -633,32 +688,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/spec/playerSpec.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="19" selection-start="245" selection-end="245" vertical-scroll-proportion="0.27540985">
-          <folding>
-            <marker date="1376916481945" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/spec/playerSpec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="16" selection-start="1488" selection-end="1488" vertical-scroll-proportion="0.4653313">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="12" selection-start="997" selection-end="997" vertical-scroll-proportion="-5.4814816">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/directives/player.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="450" selection-end="450" vertical-scroll-proportion="-8.0">
+        <state line="6" column="18" selection-start="278" selection-end="278" vertical-scroll-proportion="-4.0">
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -672,13 +704,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="0" selection-start="1303" selection-end="1303" vertical-scroll-proportion="-8.555555">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/spec/playerSpec.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="29" selection-start="1002" selection-end="1002" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/spec/playerSpec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="18" selection-start="1438" selection-end="1438" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/js/player.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="286" column="43" selection-start="9033" selection-end="9033" vertical-scroll-proportion="0.7075472">
+        <state line="18" column="5" selection-start="458" selection-end="458" vertical-scroll-proportion="0.46153846">
           <folding>
-            <element signature="n#!!block;n#PlayerService#0" expanded="false" />
-            <marker date="1377237556513" expanded="true" signature="2086:2118" placeholder="..." />
-            <marker date="1377237556513" expanded="true" signature="2220:2252" placeholder="..." />
+            <marker date="1377290860945" expanded="true" signature="1264:1296" placeholder="..." />
+            <marker date="1377290860945" expanded="true" signature="1398:1430" placeholder="..." />
           </folding>
         </state>
       </provider>

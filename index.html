@@ -22,42 +22,77 @@
     <script src="app/js/player.js"></script>
 
     <div class="well">
-        <button id='test' class="btn">play</button>
+        <button id='play' class="btn">play</button>
+        <button id='seek' class="btn">seek</button>
         <button id='bookmark' class="btn">bookmark</button>
         <button id='recordings' class="btn">load recordings</button>
+        <button id='capture' class="btn">capture</button>
     </div>
     <script>
 
+        function Bookmark() {
+            var scope = angular.element($('#player')).scope();
+            scope.setBookmark();
+            scope.$apply();
+        }
+
+        function Load(json){
+
+            json = "{\"recordings\": [{\"name\": \"https://qcoach.blob.core.windows.net/audio/test-1.wav\",\"date\": \"2013-04-20T20:00:00+0800\",\"duration\": \"10\",\"id\": \"c0345988-4cd6-4835-866c-80ca6b78cac8\",\"userId\": \"59974207-72BA-49CC-B4F3-86D7A937AB0C\",\"metadata\": [{\"label\": \"Policy No\",\"value\": \"23126603039\",\"field\": \"policy_no\",\"type\": \"number\"},{\"label\": \"Notes\",\"value\": \"Caller happy with my response and now wants other product info\",\"field\": \"call_notes\",\"type\": \"string\"}]},{\"name\": \"https://qcoach.blob.core.windows.net/audio/test-2.wav\",\"date\": \"2013-04-20T20:12:00+0800\",\"duration\": \"10\",\"id\": \"c0345988-4cd6-4835-866c-80ca6b78cac9\",\"userId\": \"59974207-72BA-49CC-B4F3-86D7A937AB0D\",\"metadata\": [{\"label\": \"Policy No\",\"value\": \"23126603039\",\"field\": \"policy_no\",\"type\": \"number\"},{\"label\": \"Notes\",\"value\": \"Caller said they were happy with product info\",\"field\": \"call_notes\",\"type\": \"string\"}]}]}"; //.replace(/^\(|\)$/g, '');
+            //json = "{\"recordings\": [{\"name\": \"https://qcoach.blob.core.windows.net/audio/test-1.wav\",\"date\": \"2013-04-20T20:00:00+0800\",\"duration\": \"10\", \"metadata\": [{\"label\": \"Policy No\",\"value\": \"23126603039\",\"field\": \"policy_no\",\"type\": \"number\"},{\"label\": \"Notes\",\"value\": \"Caller happy with my response and now wants other product info\",\"field\": \"call_notes\",\"type\": \"string\"}]}]}";
+            //var recs = $.parseJSON(json);
+            var recs = JSON.parse(json);
+            var scope = angular.element($('#player')).scope();
+            scope.loadRecordings(recs);
+            scope.$apply();
+        }
+
+        function Capture() {
+            var scope = angular.element($('#player')).scope();
+            scope.save();
+            scope.$apply();
+            return scope.start + "," + scope.end;
+        }
+
+        function Seek(start, end) {
+            var scope = angular.element($('#player')).scope();
+            //scope.loadRecordings(recs);
+
+            scope.seek(start, end);
+            scope.$apply();
+        }
+
+        function Length() {
+            return 20;
+        }
+
         $(document).ready(function() {
             document.savedCallback = function(start, end) {
-                alert(start + " " + end);
+                //alert(start + " " + end);
             }
 
             document.cancelCallback = function() {
-                alert("cancelled");
+                //alert("cancelled");
             }
 
-            $('#test').on("click", function(){
+            $('#play').on("click", function(){
                 angular.element($('#player')).scope().play();
             });
 
+            $('#seek').on("click", function(){
+                Seek(5,10);
+            });
+
+            $('#capture').on("click", function(){
+               alert(Capture());
+            });
+
             $('#bookmark').on("click", function(){
-                var scope = angular.element($('#player')).scope();
-                scope.setBookmark();
-                scope.$apply();
+                Bookmark();
             });
 
             $('#recordings').on("click", function(){
-                var recs = [
-                    new RecordingDto(1, "audio/test-1.wav", 10),
-                    new RecordingDto(2, "audio/b.wav", 2),
-                    new RecordingDto(3, "audio/test-2.wav", 10),
-                    new RecordingDto(4, "audio/c.mp3", 169)
-                ];
-
-                var scope = angular.element($('#player')).scope();
-                scope.loadRecordings(recs);
-                scope.$apply();
+                Load();
             });
         });
 

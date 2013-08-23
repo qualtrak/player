@@ -10,8 +10,7 @@ playerApp.factory('playerModel', ['playerService', function(playerService){
     return new PlayerModel(playerService);
 }]);
 
-playerApp.controller('playerController', ['$scope', 'playerModel', '$timeout','$compile', PlayerController]);
-//playerApp.controller('playerController', ['$scope', PlayerController]);
+playerApp.controller('playerController', ['$scope', '$timeout','$compile', PlayerController]);
 
 function PlayerService($http){
 
@@ -24,41 +23,18 @@ function PlayerService($http){
     }
 }
 
-function RecordingDto (id, name, length){
-    var _id = id;
-    var _name = name;
-    var _length = length;
-
-    this.getId = function(){return _id};
-    this.getName = function(){return _name};
-    this.getLength = function(){return _length};
-}
-
 function PlayerModel(playerService){
     return {
-        data : [
-            new RecordingDto(1, "test-1.wav", 10),
-            new RecordingDto(2, "b.wav", 2),
-            new RecordingDto(3, "test-2.wav", 10),
-            new RecordingDto(4, "c.mp3", 169)
-        ]
+        data : []
     }
 }
 
-//function PlayerController($scope, playerModel, $timeout) {
 function PlayerController($scope, $timeout, $compile) {
     $scope.isPlayDisabled = false;
     $scope.isStopDisabled = true;
     $scope.isPauseDisabled = true;
     $scope.position = "00 - 00 / 00";
-    $scope.recordings = [];
-
-        /*[
-        new RecordingDto(1, "audio/test-1.wav", 10),
-        new RecordingDto(2, "audio/b.wav", 2),
-        new RecordingDto(3, "audio/test-2.wav", 10),
-        new RecordingDto(4, "audio/c.mp3", 169)
-    ];*/
+    $scope.recordings = {};
     $scope.filename = "";
     $scope.currentPosition = 0;
     $scope.totalLength = 0;
@@ -80,10 +56,12 @@ function PlayerController($scope, $timeout, $compile) {
     };
 
     $scope.loadRecordings = function(recordings) {
-        angular.copy(recordings, $scope.recordings);
+        $scope.recordings = $.map(recordings, function(el) {
+           return el;
+        });
 
         if ($scope.recordings.length > 0) {
-            $scope.filename = $scope.recordings[0].getName();
+            $scope.filename = $scope.recordings[0].name;
             $scope.isPlayDisabled = false;
             $scope.init();
             $scope.$apply();
@@ -127,6 +105,14 @@ function PlayerController($scope, $timeout, $compile) {
 
     $scope.pause = function (){
         $scope.pausedPressed();
+    }
+
+    $scope.seek = function(start, end){
+        $scope.start = start;
+        $scope.end = end;
+        $scope.currentPosition = start;
+        $scope.setBookmark();
+        $scope.play();
     }
 
     $scope.setBookmark = function(){
@@ -185,16 +171,13 @@ function PlayerController($scope, $timeout, $compile) {
 
         $scope.timeout = $timeout ( function() {
             $scope.currentPosition = parseInt($scope.currentPosition) + 1;
-            //$scope.log("playForward = " + $scope.currentPosition);
             $scope.playForward();
             $scope.$apply();
         }, 1000, null);
     }
 
     $scope.$watch('filename', function (newValue, oldValue) {
-        //$scope.log (newValue + " " + oldValue);
         if (newValue != oldValue) {
-            //$scope.log($scope.currentPosition + " == " + $scope.segmentStart + " " + $scope.filename);
             $scope.qtPlayer = document.getElementById($scope.getRecordingByFilename($scope.filename));
             window.setTimeout( function () {
                 if ($scope.isPlaying) {
@@ -210,12 +193,11 @@ function PlayerController($scope, $timeout, $compile) {
         var cumLength = 0;
         angular.forEach($scope.recordings, function(value, key){
             if ($scope.currentPosition > cumLength &&
-                $scope.currentPosition < (cumLength + value.getLength())){
+                $scope.currentPosition < (cumLength + value.duration)){
                 $scope.segmentStart = cumLength;
-                //$scope.log ("setting segment start " + $scope.segmentStart + " for " + value.getName() + " " + $scope.currentPosition);
-                $scope.filename = value.getName();
+                $scope.filename = value.name;
             }
-            cumLength = cumLength + value.getLength();
+            cumLength = cumLength + value.duration;
         }, null);
 
         $scope.log ("current pos: " + $scope.currentPosition);
@@ -275,7 +257,6 @@ function PlayerController($scope, $timeout, $compile) {
     $scope.selectAppropriateSlider = function() {
 
         $scope.createSliders();
-        //$('#rangeslider').empty();
 
         if ($scope.isBookmarkSet){
             if ($scope.bookmarkSliderBroughtIntoView) return;
@@ -332,7 +313,6 @@ function PlayerController($scope, $timeout, $compile) {
                 slide: function (e) {
                     $scope.start = e.value;
                     $scope.currentPosition = e.value;
-                    // $scope.log($scope.start + " " + $scope.currentPosition);
                     $scope.$apply(function () {
                         $scope.updatePositionLabel();
                     });
@@ -343,18 +323,16 @@ function PlayerController($scope, $timeout, $compile) {
                 value: 10
             }).data("kendoSlider");
         }
-
     }
 
     $scope.init = function (){
         var html = "";
         angular.forEach($scope.recordings, function(value, key){
-            html = html + $scope.createQtPlayerObject("qt_" + value.getId(), value.getName());
-            $scope.totalLength = $scope.totalLength + value.getLength();
+            html = html + $scope.createQtPlayerObject("qt_" + value.id, value.name);
+            $scope.totalLength = $scope.totalLength + Number(value.duration);
         }, null);
 
         $('#mediaPlayer').html(html);
-
 
         $scope.selectAppropriateSlider();
 
@@ -378,8 +356,8 @@ function PlayerController($scope, $timeout, $compile) {
     $scope.getRecordingByFilename = function (filename) {
         var elem = null;
         angular.forEach($scope.recordings, function(value, key){
-            if (value.getName() == filename){
-                elem = "qt_" + value.getId();
+            if (value.name == filename){
+                elem = "qt_" + value.id;
             }
         }, null);
 
