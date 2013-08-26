@@ -26,225 +26,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2e3d680-7261-41c1-bc94-f9de697c7887" name="Default" comment="initial check in">
-      <change type="DELETED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\kendo.black.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\kendo.common.min.css" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\app\js\player.js" afterPath="$PROJECT_DIR$/src/app/player/player.js" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\app\templates\directives\player.html" afterPath="$PROJECT_DIR$/src/app/player/templates/player.tmpl.html" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\index.html" afterPath="$PROJECT_DIR$/src/index.html" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\libs\angular\angular.js" afterPath="$PROJECT_DIR$/vendor/angular/angular.js" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\libs\bootstrap\bootstrap.js" afterPath="$PROJECT_DIR$/vendor/bootstrap/bootstrap.js" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\libs\bootstrap\bootstrap.min.js" afterPath="$PROJECT_DIR$/vendor/bootstrap/bootstrap.min.js" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\libs\jquery\jquery-1.10.2.js" afterPath="$PROJECT_DIR$/vendor/jquery/jquery-1.10.2.js" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\libs\kendoui\kendo.all.js" afterPath="$PROJECT_DIR$/vendor/kendoui/kendo.all.js" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\libs\kendoui\kendo.all.min.js" afterPath="$PROJECT_DIR$/vendor/kendoui/kendo.all.min.js" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\Black\editor.png" afterPath="$PROJECT_DIR$/src/assets/Black/editor.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\Black\imagebrowser.png" afterPath="$PROJECT_DIR$/src/assets/Black/imagebrowser.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\Black\loading-image.gif" afterPath="$PROJECT_DIR$/src/assets/Black/loading-image.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\Black\loading.gif" afterPath="$PROJECT_DIR$/src/assets/Black/loading.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\Black\loading_2x.gif" afterPath="$PROJECT_DIR$/src/assets/Black/loading_2x.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\Black\slider-h.gif" afterPath="$PROJECT_DIR$/src/assets/Black/slider-h.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\Black\slider-v.gif" afterPath="$PROJECT_DIR$/src/assets/Black/slider-v.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\Black\sprite.png" afterPath="$PROJECT_DIR$/src/assets/Black/sprite.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\Black\sprite_2x.png" afterPath="$PROJECT_DIR$/src/assets/Black/sprite_2x.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\bootstrap\bootstrap-responsive.css" afterPath="$PROJECT_DIR$/src/assets/bootstrap/bootstrap-responsive.css" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\bootstrap\bootstrap-responsive.min.css" afterPath="$PROJECT_DIR$/src/assets/bootstrap/bootstrap-responsive.min.css" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\bootstrap\bootstrap.css" afterPath="$PROJECT_DIR$/src/assets/bootstrap/bootstrap.css" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\bootstrap\bootstrap.min.css" afterPath="$PROJECT_DIR$/src/assets/bootstrap/bootstrap.min.css" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\img\default.png" afterPath="$PROJECT_DIR$/src/assets/img/default.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\img\glyphicons-halflings-white.png" afterPath="$PROJECT_DIR$/src/assets/img/glyphicons-halflings-white.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\img\glyphicons-halflings.png" afterPath="$PROJECT_DIR$/src/assets/img/glyphicons-halflings.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendo.black.min.css" afterPath="$PROJECT_DIR$/src/assets/kendoui/kendo.black.min.css" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendo.common.min.css" afterPath="$PROJECT_DIR$/src/assets/kendoui/kendo.common.min.css" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Black\editor.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/Black/editor.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Black\imagebrowser.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/Black/imagebrowser.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Black\loading-image.gif" afterPath="$PROJECT_DIR$/src/assets/kendoui/Black/loading-image.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Black\loading.gif" afterPath="$PROJECT_DIR$/src/assets/kendoui/Black/loading.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Black\loading_2x.gif" afterPath="$PROJECT_DIR$/src/assets/kendoui/Black/loading_2x.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Black\slider-h.gif" afterPath="$PROJECT_DIR$/src/assets/kendoui/Black/slider-h.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Black\slider-v.gif" afterPath="$PROJECT_DIR$/src/assets/kendoui/Black/slider-v.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Black\sprite.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/Black/sprite.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Black\sprite_2x.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/Black/sprite_2x.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\BlueOpal\editor.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/BlueOpal/editor.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\BlueOpal\imagebrowser.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/BlueOpal/imagebrowser.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\BlueOpal\loading-image.gif" afterPath="$PROJECT_DIR$/src/assets/kendoui/BlueOpal/loading-image.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\BlueOpal\loading.gif" afterPath="$PROJECT_DIR$/src/assets/kendoui/BlueOpal/loading.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\BlueOpal\loading_2x.gif" afterPath="$PROJECT_DIR$/src/assets/kendoui/BlueOpal/loading_2x.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\BlueOpal\slider-h.gif" afterPath="$PROJECT_DIR$/src/assets/kendoui/BlueOpal/slider-h.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\BlueOpal\slider-v.gif" afterPath="$PROJECT_DIR$/src/assets/kendoui/BlueOpal/slider-v.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\BlueOpal\sprite.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/BlueOpal/sprite.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\BlueOpal\sprite_2x.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/BlueOpal/sprite_2x.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Bootstrap\editor.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/Bootstrap/editor.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Bootstrap\imagebrowser.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/Bootstrap/imagebrowser.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Bootstrap\loading-image.gif" afterPath="$PROJECT_DIR$/src/assets/kendoui/Bootstrap/loading-image.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Bootstrap\loading.gif" afterPath="$PROJECT_DIR$/src/assets/kendoui/Bootstrap/loading.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Bootstrap\loading_2x.gif" afterPath="$PROJECT_DIR$/src/assets/kendoui/Bootstrap/loading_2x.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Bootstrap\slider-h.gif" afterPath="$PROJECT_DIR$/src/assets/kendoui/Bootstrap/slider-h.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Bootstrap\slider-v.gif" afterPath="$PROJECT_DIR$/src/assets/kendoui/Bootstrap/slider-v.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Bootstrap\sprite.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/Bootstrap/sprite.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Bootstrap\sprite_2x.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/Bootstrap/sprite_2x.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Default\editor.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/Default/editor.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Default\imagebrowser.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/Default/imagebrowser.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Default\loading-image.gif" afterPath="$PROJECT_DIR$/src/assets/kendoui/Default/loading-image.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Default\loading.gif" afterPath="$PROJECT_DIR$/src/assets/kendoui/Default/loading.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Default\loading_2x.gif" afterPath="$PROJECT_DIR$/src/assets/kendoui/Default/loading_2x.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Default\slider-h.gif" afterPath="$PROJECT_DIR$/src/assets/kendoui/Default/slider-h.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Default\slider-v.gif" afterPath="$PROJECT_DIR$/src/assets/kendoui/Default/slider-v.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Default\sprite.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/Default/sprite.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Default\sprite_2x.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/Default/sprite_2x.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Flat\editor.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/Flat/editor.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Flat\imagebrowser.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/Flat/imagebrowser.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Flat\loading-image.gif" afterPath="$PROJECT_DIR$/src/assets/kendoui/Flat/loading-image.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Flat\loading.gif" afterPath="$PROJECT_DIR$/src/assets/kendoui/Flat/loading.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Flat\loading_2x.gif" afterPath="$PROJECT_DIR$/src/assets/kendoui/Flat/loading_2x.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Flat\slider-h.gif" afterPath="$PROJECT_DIR$/src/assets/kendoui/Flat/slider-h.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Flat\slider-v.gif" afterPath="$PROJECT_DIR$/src/assets/kendoui/Flat/slider-v.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Flat\sprite.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/Flat/sprite.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Flat\sprite_2x.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/Flat/sprite_2x.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\HighContrast\editor.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/HighContrast/editor.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\HighContrast\imagebrowser.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/HighContrast/imagebrowser.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\HighContrast\loading-image.gif" afterPath="$PROJECT_DIR$/src/assets/kendoui/HighContrast/loading-image.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\HighContrast\loading.gif" afterPath="$PROJECT_DIR$/src/assets/kendoui/HighContrast/loading.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\HighContrast\loading_2x.gif" afterPath="$PROJECT_DIR$/src/assets/kendoui/HighContrast/loading_2x.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\HighContrast\slider-h.gif" afterPath="$PROJECT_DIR$/src/assets/kendoui/HighContrast/slider-h.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\HighContrast\slider-v.gif" afterPath="$PROJECT_DIR$/src/assets/kendoui/HighContrast/slider-v.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\HighContrast\sprite.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/HighContrast/sprite.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\HighContrast\sprite_2x.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/HighContrast/sprite_2x.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\MetroBlack\editor.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/MetroBlack/editor.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\MetroBlack\imagebrowser.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/MetroBlack/imagebrowser.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\MetroBlack\loading-image.gif" afterPath="$PROJECT_DIR$/src/assets/kendoui/MetroBlack/loading-image.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\MetroBlack\loading.gif" afterPath="$PROJECT_DIR$/src/assets/kendoui/MetroBlack/loading.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\MetroBlack\loading_2x.gif" afterPath="$PROJECT_DIR$/src/assets/kendoui/MetroBlack/loading_2x.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\MetroBlack\slider-h.gif" afterPath="$PROJECT_DIR$/src/assets/kendoui/MetroBlack/slider-h.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\MetroBlack\slider-v.gif" afterPath="$PROJECT_DIR$/src/assets/kendoui/MetroBlack/slider-v.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\MetroBlack\sprite.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/MetroBlack/sprite.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\MetroBlack\sprite_2x.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/MetroBlack/sprite_2x.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Metro\editor.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/Metro/editor.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Metro\imagebrowser.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/Metro/imagebrowser.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Metro\loading-image.gif" afterPath="$PROJECT_DIR$/src/assets/kendoui/Metro/loading-image.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Metro\loading.gif" afterPath="$PROJECT_DIR$/src/assets/kendoui/Metro/loading.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Metro\loading_2x.gif" afterPath="$PROJECT_DIR$/src/assets/kendoui/Metro/loading_2x.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Metro\slider-h.gif" afterPath="$PROJECT_DIR$/src/assets/kendoui/Metro/slider-h.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Metro\slider-v.gif" afterPath="$PROJECT_DIR$/src/assets/kendoui/Metro/slider-v.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Metro\sprite.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/Metro/sprite.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Metro\sprite_2x.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/Metro/sprite_2x.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Moonlight\editor.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/Moonlight/editor.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Moonlight\imagebrowser.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/Moonlight/imagebrowser.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Moonlight\loading-image.gif" afterPath="$PROJECT_DIR$/src/assets/kendoui/Moonlight/loading-image.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Moonlight\loading.gif" afterPath="$PROJECT_DIR$/src/assets/kendoui/Moonlight/loading.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Moonlight\loading_2x.gif" afterPath="$PROJECT_DIR$/src/assets/kendoui/Moonlight/loading_2x.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Moonlight\slider-h.gif" afterPath="$PROJECT_DIR$/src/assets/kendoui/Moonlight/slider-h.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Moonlight\slider-v.gif" afterPath="$PROJECT_DIR$/src/assets/kendoui/Moonlight/slider-v.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Moonlight\sprite.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/Moonlight/sprite.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Moonlight\sprite_2x.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/Moonlight/sprite_2x.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Silver\editor.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/Silver/editor.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Silver\imagebrowser.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/Silver/imagebrowser.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Silver\loading-image.gif" afterPath="$PROJECT_DIR$/src/assets/kendoui/Silver/loading-image.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Silver\loading.gif" afterPath="$PROJECT_DIR$/src/assets/kendoui/Silver/loading.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Silver\loading_2x.gif" afterPath="$PROJECT_DIR$/src/assets/kendoui/Silver/loading_2x.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Silver\slider-h.gif" afterPath="$PROJECT_DIR$/src/assets/kendoui/Silver/slider-h.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Silver\slider-v.gif" afterPath="$PROJECT_DIR$/src/assets/kendoui/Silver/slider-v.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Silver\sprite.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/Silver/sprite.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Silver\sprite_2x.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/Silver/sprite_2x.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Uniform\editor.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/Uniform/editor.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Uniform\imagebrowser.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/Uniform/imagebrowser.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Uniform\loading-image.gif" afterPath="$PROJECT_DIR$/src/assets/kendoui/Uniform/loading-image.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Uniform\loading.gif" afterPath="$PROJECT_DIR$/src/assets/kendoui/Uniform/loading.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Uniform\loading_2x.gif" afterPath="$PROJECT_DIR$/src/assets/kendoui/Uniform/loading_2x.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Uniform\slider-h.gif" afterPath="$PROJECT_DIR$/src/assets/kendoui/Uniform/slider-h.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Uniform\slider-v.gif" afterPath="$PROJECT_DIR$/src/assets/kendoui/Uniform/slider-v.gif" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Uniform\sprite.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/Uniform/sprite.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\Uniform\sprite_2x.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/Uniform/sprite_2x.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\images\KendoUI.ttf" afterPath="$PROJECT_DIR$/src/assets/kendoui/images/KendoUI.ttf" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\images\KendoUI.woff" afterPath="$PROJECT_DIR$/src/assets/kendoui/images/KendoUI.woff" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\images\back.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/images/back.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\images\wp8_icons.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/images/wp8_icons.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\images\wp8_inverseicons.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/images/wp8_inverseicons.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\kendo.blueopal.min.css" afterPath="$PROJECT_DIR$/src/assets/kendoui/kendo.blueopal.min.css" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\kendo.bootstrap.min.css" afterPath="$PROJECT_DIR$/src/assets/kendoui/kendo.bootstrap.min.css" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\kendo.dataviz.black.min.css" afterPath="$PROJECT_DIR$/src/assets/kendoui/kendo.dataviz.black.min.css" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\kendo.dataviz.blueopal.min.css" afterPath="$PROJECT_DIR$/src/assets/kendoui/kendo.dataviz.blueopal.min.css" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\kendo.dataviz.bootstrap.min.css" afterPath="$PROJECT_DIR$/src/assets/kendoui/kendo.dataviz.bootstrap.min.css" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\kendo.dataviz.default.min.css" afterPath="$PROJECT_DIR$/src/assets/kendoui/kendo.dataviz.default.min.css" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\kendo.dataviz.flat.min.css" afterPath="$PROJECT_DIR$/src/assets/kendoui/kendo.dataviz.flat.min.css" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\kendo.dataviz.highcontrast.min.css" afterPath="$PROJECT_DIR$/src/assets/kendoui/kendo.dataviz.highcontrast.min.css" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\kendo.dataviz.metro.min.css" afterPath="$PROJECT_DIR$/src/assets/kendoui/kendo.dataviz.metro.min.css" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\kendo.dataviz.metroblack.min.css" afterPath="$PROJECT_DIR$/src/assets/kendoui/kendo.dataviz.metroblack.min.css" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\kendo.dataviz.min.css" afterPath="$PROJECT_DIR$/src/assets/kendoui/kendo.dataviz.min.css" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\kendo.dataviz.moonlight.min.css" afterPath="$PROJECT_DIR$/src/assets/kendoui/kendo.dataviz.moonlight.min.css" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\kendo.dataviz.silver.min.css" afterPath="$PROJECT_DIR$/src/assets/kendoui/kendo.dataviz.silver.min.css" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\kendo.dataviz.uniform.min.css" afterPath="$PROJECT_DIR$/src/assets/kendoui/kendo.dataviz.uniform.min.css" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\kendo.default.min.css" afterPath="$PROJECT_DIR$/src/assets/kendoui/kendo.default.min.css" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\kendo.flat.min.css" afterPath="$PROJECT_DIR$/src/assets/kendoui/kendo.flat.min.css" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\kendo.highcontrast.min.css" afterPath="$PROJECT_DIR$/src/assets/kendoui/kendo.highcontrast.min.css" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\kendo.icenium.min.css" afterPath="$PROJECT_DIR$/src/assets/kendoui/kendo.icenium.min.css" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\kendo.metro.min.css" afterPath="$PROJECT_DIR$/src/assets/kendoui/kendo.metro.min.css" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\kendo.metroblack.min.css" afterPath="$PROJECT_DIR$/src/assets/kendoui/kendo.metroblack.min.css" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\kendo.mobile.all.min.css" afterPath="$PROJECT_DIR$/src/assets/kendoui/kendo.mobile.all.min.css" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\kendo.mobile.android4.min.css" afterPath="$PROJECT_DIR$/src/assets/kendoui/kendo.mobile.android4.min.css" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\kendo.mobile.blackberry.min.css" afterPath="$PROJECT_DIR$/src/assets/kendoui/kendo.mobile.blackberry.min.css" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\kendo.mobile.common.min.css" afterPath="$PROJECT_DIR$/src/assets/kendoui/kendo.mobile.common.min.css" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\kendo.mobile.flat.min.css" afterPath="$PROJECT_DIR$/src/assets/kendoui/kendo.mobile.flat.min.css" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\kendo.mobile.icenium.min.css" afterPath="$PROJECT_DIR$/src/assets/kendoui/kendo.mobile.icenium.min.css" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\kendo.mobile.ios.min.css" afterPath="$PROJECT_DIR$/src/assets/kendoui/kendo.mobile.ios.min.css" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\kendo.mobile.meego.min.css" afterPath="$PROJECT_DIR$/src/assets/kendoui/kendo.mobile.meego.min.css" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\kendo.mobile.wp8.min.css" afterPath="$PROJECT_DIR$/src/assets/kendoui/kendo.mobile.wp8.min.css" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\kendo.moonlight.min.css" afterPath="$PROJECT_DIR$/src/assets/kendoui/kendo.moonlight.min.css" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\kendo.rtl.min.css" afterPath="$PROJECT_DIR$/src/assets/kendoui/kendo.rtl.min.css" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\kendo.silver.min.css" afterPath="$PROJECT_DIR$/src/assets/kendoui/kendo.silver.min.css" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\kendo.uniform.min.css" afterPath="$PROJECT_DIR$/src/assets/kendoui/kendo.uniform.min.css" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\textures\brushed-metal.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/textures/brushed-metal.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\textures\dots1.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/textures/dots1.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\textures\dots10.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/textures/dots10.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\textures\dots11.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/textures/dots11.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\textures\dots12.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/textures/dots12.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\textures\dots13.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/textures/dots13.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\textures\dots2.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/textures/dots2.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\textures\dots3.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/textures/dots3.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\textures\dots4.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/textures/dots4.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\textures\dots5.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/textures/dots5.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\textures\dots6.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/textures/dots6.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\textures\dots7.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/textures/dots7.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\textures\dots8.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/textures/dots8.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\textures\dots9.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/textures/dots9.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\textures\glass-lighter.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/textures/glass-lighter.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\textures\glass.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/textures/glass.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\textures\highlight.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/textures/highlight.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\textures\hsv-gradient.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/textures/hsv-gradient.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\textures\hue.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/textures/hue.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\textures\leather1.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/textures/leather1.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\textures\leather2.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/textures/leather2.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\textures\noise.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/textures/noise.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\textures\stripe1.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/textures/stripe1.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\textures\stripe2.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/textures/stripe2.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\textures\stripe3.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/textures/stripe3.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\textures\stripe4.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/textures/stripe4.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\textures\stripe5.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/textures/stripe5.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\textures\stripe6.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/textures/stripe6.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\textures\transparency.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/textures/transparency.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\styles\kendoui\textures\transtexture.png" afterPath="$PROJECT_DIR$/src/assets/kendoui/textures/transtexture.png" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\test\karma.conf.js" afterPath="$PROJECT_DIR$/karma/karma.conf.js" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\test\lib\SpecRunner.html" afterPath="$PROJECT_DIR$/karma/lib/SpecRunner.html" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\test\lib\angular\angular-mocks.js" afterPath="$PROJECT_DIR$/vendor/angular/angular-mocks.js" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\test\lib\jasmine-1.3.1\MIT.LICENSE" afterPath="$PROJECT_DIR$/vendor/jasmine-1.3.1/MIT.LICENSE" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\test\lib\jasmine-1.3.1\jasmine-html.js" afterPath="$PROJECT_DIR$/vendor/jasmine-1.3.1/jasmine-html.js" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\test\lib\jasmine-1.3.1\jasmine.css" afterPath="$PROJECT_DIR$/vendor/jasmine-1.3.1/jasmine.css" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\test\lib\jasmine-1.3.1\jasmine.js" afterPath="$PROJECT_DIR$/vendor/jasmine-1.3.1/jasmine.js" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\test\lib\sinon\sinon-1.7.3.js" afterPath="$PROJECT_DIR$/vendor/sinon/sinon-1.7.3.js" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\test\spec\playerSpec.coffee" afterPath="$PROJECT_DIR$/karma/spec/playerSpec.coffee" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\test\spec\playerSpec.js" afterPath="$PROJECT_DIR$/karma/spec/playerSpec.js" />
-      <change type="MOVED" beforePath="C:\Users\garrard.kitchen.MARVIN\Documents\My Web Sites\altitude-player\test\spec\playerSpec.map" afterPath="$PROJECT_DIR$/karma/spec/playerSpec.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/player/player.js" afterPath="$PROJECT_DIR$/src/app/player/player.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="altitude-player.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/../Angular-Views/atlassian-ide-plugin.xml" changelist="c2e3d680-7261-41c1-bc94-f9de697c7887" time="1376298708337" ignored="false" />
-    <file path="/index.html" changelist="c2e3d680-7261-41c1-bc94-f9de697c7887" time="1377288541953" ignored="false" />
+    <file path="/index.html" changelist="c2e3d680-7261-41c1-bc94-f9de697c7887" time="1377508801109" ignored="false" />
     <file path="/Dummy.txt" changelist="c2e3d680-7261-41c1-bc94-f9de697c7887" time="1377343893606" ignored="false" />
     <file path="/player.html" changelist="c2e3d680-7261-41c1-bc94-f9de697c7887" time="1377278028298" ignored="false" />
     <file path="/dummy.txt" changelist="c2e3d680-7261-41c1-bc94-f9de697c7887" time="1376391408539" ignored="false" />
     <file path="/playerSpec.coffee" changelist="c2e3d680-7261-41c1-bc94-f9de697c7887" time="1377288303948" ignored="false" />
     <file path="/karma.conf.js" changelist="c2e3d680-7261-41c1-bc94-f9de697c7887" time="1376910148702" ignored="false" />
-    <file path="/player.js" changelist="c2e3d680-7261-41c1-bc94-f9de697c7887" time="1377290525208" ignored="false" />
+    <file path="/player.js" changelist="c2e3d680-7261-41c1-bc94-f9de697c7887" time="1377508782125" ignored="false" />
     <file path="/dummy.xml" changelist="c2e3d680-7261-41c1-bc94-f9de697c7887" time="1377107015458" ignored="false" />
     <file path="/fragment.js2" changelist="c2e3d680-7261-41c1-bc94-f9de697c7887" time="1377265435584" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -265,7 +60,29 @@
     <favorites_list name="altitude-player" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="59" column="27" selection-start="2958" selection-end="2958" vertical-scroll-proportion="0.352518">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="player.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/player/player.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="61" column="11" selection-start="1728" selection-end="1728" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1377508835278" expanded="false" signature="1294:1326" placeholder="..." />
+                <marker date="1377508835278" expanded="false" signature="1428:1460" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -408,6 +225,42 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="altitude-player" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="altitude-player" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="altitude-player" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="altitude-player" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="altitude-player" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="player" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -567,13 +420,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22032085" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21041445" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33900106" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33900106" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Runner" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32837406" sideWeight="0.20917822" order="7" side_tool="true" content_ui="tabs" />
@@ -582,7 +435,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.09765208" sideWeight="0.78913736" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13340448" sideWeight="0.66099894" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13340448" sideWeight="0.66099894" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39084134" sideWeight="0.7908218" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -769,20 +622,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
+    <entry file="file://$PROJECT_DIR$/src/app/player/player.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="9" selection-start="365" selection-end="365" vertical-scroll-proportion="0.32374102">
-          <folding />
+        <state line="61" column="11" selection-start="1728" selection-end="1728" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1377508835278" expanded="false" signature="1294:1326" placeholder="..." />
+            <marker date="1377508835278" expanded="false" signature="1428:1460" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/player/player.js">
+    <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1377366968168" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1377366968168" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
+        <state line="59" column="27" selection-start="2958" selection-end="2958" vertical-scroll-proportion="0.352518">
+          <folding />
         </state>
       </provider>
     </entry>

@@ -47,6 +47,7 @@ function PlayerController($scope, $timeout, $compile) {
     $scope.singleSlider = {};
     $scope.doubleSlider = {};
     $scope.isPlayDisabled = true;
+    $scope.totalDuration = 0;
 
     $scope.singleHtml = '<div id="rangeslider" ng-show="!isBookmarkSet" style="width:100%;display: inline-block" ><input /><input /></div>';
     $scope.rangeHtml = '<div id="slider" ng-show="isBookmarkSet" style="width:100%;display: inline-block" ><input /><input /></div>';
@@ -61,6 +62,11 @@ function PlayerController($scope, $timeout, $compile) {
         });
 
         if ($scope.recordings.length > 0) {
+            $scope.totalDuration = 0;
+            $.each($scope.recordings, function(index, value) {
+                $scope.totalDuration = $scope.totalDuration + Number(value.duration)
+            });
+
             $scope.filename = $scope.recordings[0].name;
             $scope.isPlayDisabled = false;
             $scope.init();

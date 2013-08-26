@@ -27,6 +27,8 @@
         <button id='bookmark' class="btn">bookmark</button>
         <button id='recordings' class="btn">load recordings</button>
         <button id='capture' class="btn">capture</button>
+        <button id='duration' class="btn">duration</button>
+
     </div>
     <script>
 
@@ -38,9 +40,7 @@
 
         function Load(json){
 
-            json = "{\"recordings\": [{\"name\": \"https://qcoach.blob.core.windows.net/audio/test-1.wav\",\"date\": \"2013-04-20T20:00:00+0800\",\"duration\": \"10\",\"id\": \"c0345988-4cd6-4835-866c-80ca6b78cac8\",\"userId\": \"59974207-72BA-49CC-B4F3-86D7A937AB0C\",\"metadata\": [{\"label\": \"Policy No\",\"value\": \"23126603039\",\"field\": \"policy_no\",\"type\": \"number\"},{\"label\": \"Notes\",\"value\": \"Caller happy with my response and now wants other product info\",\"field\": \"call_notes\",\"type\": \"string\"}]},{\"name\": \"https://qcoach.blob.core.windows.net/audio/test-2.wav\",\"date\": \"2013-04-20T20:12:00+0800\",\"duration\": \"10\",\"id\": \"c0345988-4cd6-4835-866c-80ca6b78cac9\",\"userId\": \"59974207-72BA-49CC-B4F3-86D7A937AB0D\",\"metadata\": [{\"label\": \"Policy No\",\"value\": \"23126603039\",\"field\": \"policy_no\",\"type\": \"number\"},{\"label\": \"Notes\",\"value\": \"Caller said they were happy with product info\",\"field\": \"call_notes\",\"type\": \"string\"}]}]}"; //.replace(/^\(|\)$/g, '');
-            //json = "{\"recordings\": [{\"name\": \"https://qcoach.blob.core.windows.net/audio/test-1.wav\",\"date\": \"2013-04-20T20:00:00+0800\",\"duration\": \"10\", \"metadata\": [{\"label\": \"Policy No\",\"value\": \"23126603039\",\"field\": \"policy_no\",\"type\": \"number\"},{\"label\": \"Notes\",\"value\": \"Caller happy with my response and now wants other product info\",\"field\": \"call_notes\",\"type\": \"string\"}]}]}";
-            //var recs = $.parseJSON(json);
+            json = "{\"recordings\": [{\"name\": \"https://qcoach.blob.core.windows.net/audio/test-1.wav\",\"date\": \"2013-04-20T20:00:00+0800\",\"duration\": \"10\",\"id\": \"c0345988-4cd6-4835-866c-80ca6b78cac8\",\"userId\": \"59974207-72BA-49CC-B4F3-86D7A937AB0C\",\"metadata\": [{\"label\": \"Policy No\",\"value\": \"23126603039\",\"field\": \"policy_no\",\"type\": \"number\"},{\"label\": \"Notes\",\"value\": \"Caller happy with my response and now wants other product info\",\"field\": \"call_notes\",\"type\": \"string\"}]},{\"name\": \"https://qcoach.blob.core.windows.net/audio/test-2.wav\",\"date\": \"2013-04-20T20:12:00+0800\",\"duration\": \"10\",\"id\": \"c0345988-4cd6-4835-866c-80ca6b78cac9\",\"userId\": \"59974207-72BA-49CC-B4F3-86D7A937AB0D\",\"metadata\": [{\"label\": \"Policy No\",\"value\": \"23126603039\",\"field\": \"policy_no\",\"type\": \"number\"},{\"label\": \"Notes\",\"value\": \"Caller said they were happy with product info\",\"field\": \"call_notes\",\"type\": \"string\"}]}]}";
             var recs = JSON.parse(json);
             var scope = angular.element($('#player')).scope();
             scope.loadRecordings(recs);
@@ -56,14 +56,13 @@
 
         function Seek(start, end) {
             var scope = angular.element($('#player')).scope();
-            //scope.loadRecordings(recs);
-
             scope.seek(start, end);
             scope.$apply();
         }
 
         function Length() {
-            return 20;
+            var scope = angular.element($('#player')).scope();
+            return scope.totalDuration;
         }
 
         $(document).ready(function() {
@@ -93,6 +92,9 @@
 
             $('#recordings').on("click", function(){
                 Load();
+            });
+            $('#duration').on("click", function(){
+                alert(Length());
             });
         });
 
