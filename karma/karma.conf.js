@@ -17,14 +17,14 @@ module.exports = function(config) {
       '../libs/kendoui/kendo.all.min.js',
       '../libs/bootstrap/*.js',
       '../app/js/player.js',
-      //'../app/templates/directives/player.html',
+      //'../app/templates/directives/player.tmpl.html',
       'lib/angular/*.js',
       'lib/sinon/*.js',
       'spec/*[Ss]pec.js'
     ],
 
     /*preprocessors: {
-      '../app/templates/directives/player.html': 'html2js'
+      '../app/templates/directives/player.tmpl.html': 'html2js'
     },*/
 
     // list of files to exclude

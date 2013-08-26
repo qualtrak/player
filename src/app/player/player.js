@@ -389,7 +389,7 @@ playerApp.directive('player', function (playerModel){
     return {
         restrict: 'E',
         replace: true,
-        templateUrl: 'app/templates/directives/player.html',
+        templateUrl: 'app/player/templates/player.tmpl.html',
         scope: {
             start: "@",
             end: "@"

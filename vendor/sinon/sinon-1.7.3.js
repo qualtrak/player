@@ -829,7 +829,7 @@ this.sinon = (function () {
         var commonJSModule = typeof module == "object" && typeof require == "function";
 
         if (!sinon && commonJSModule) {
-            sinon = require("../sinon");
+            sinon = require("");
         }
 
         if (!sinon) {
@@ -1072,7 +1072,7 @@ this.sinon = (function () {
     var commonJSModule = typeof module == "object" && typeof require == "function";
 
     if (!this.sinon && commonJSModule) {
-        var sinon = require("../sinon");
+        var sinon = require("");
     }
 
     (function (sinon) {
@@ -1648,7 +1648,7 @@ this.sinon = (function () {
         var commonJSModule = typeof module == "object" && typeof require == "function";
 
         if (!sinon && commonJSModule) {
-            sinon = require("../sinon");
+            sinon = require("");
         }
 
         if (!sinon) {
@@ -2020,7 +2020,7 @@ this.sinon = (function () {
         var push = [].push;
 
         if (!sinon && commonJSModule) {
-            sinon = require("../sinon");
+            sinon = require("");
         }
 
         if (!sinon) {
@@ -2446,7 +2446,7 @@ this.sinon = (function () {
         var hasOwnProperty = Object.prototype.hasOwnProperty;
 
         if (!sinon && commonJSModule) {
-            sinon = require("../sinon");
+            sinon = require("");
         }
 
         if (!sinon) {
@@ -3826,7 +3826,7 @@ this.sinon = (function () {
      */
 
     if (typeof module == "object" && typeof require == "function") {
-        var sinon = require("../sinon");
+        var sinon = require("");
         sinon.extend(sinon, require("./util/fake_timers"));
     }
 
@@ -3953,7 +3953,7 @@ this.sinon = (function () {
         var commonJSModule = typeof module == "object" && typeof require == "function";
 
         if (!sinon && commonJSModule) {
-            sinon = require("../sinon");
+            sinon = require("");
         }
 
         if (!sinon) {
@@ -4026,7 +4026,7 @@ this.sinon = (function () {
         var commonJSModule = typeof module == "object" && typeof require == "function";
 
         if (!sinon && commonJSModule) {
-            sinon = require("../sinon");
+            sinon = require("");
         }
 
         if (!sinon || !Object.prototype.hasOwnProperty) {
@@ -4125,7 +4125,7 @@ this.sinon = (function () {
         var assert;
 
         if (!sinon && commonJSModule) {
-            sinon = require("../sinon");
+            sinon = require("");
         }
 
         if (!sinon) {
